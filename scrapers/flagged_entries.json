@@ -1,0 +1,38 @@
+{
+  "vendors": [],
+  "parishes": [
+    "Grouville",
+    "St Brelade",
+    "St Clement",
+    "St Helier",
+    "St John",
+    "St Lawrence",
+    "St Martin",
+    "St Mary",
+    "St Ouen",
+    "St Peter",
+    "St Saviour",
+    "Trinity"
+  ],
+  "produce_types": [
+    "Baked Goods",
+    "Eggs",
+    "Fish",
+    "Flowers",
+    "Fruit",
+    "Honey",
+    "Jersey Royals",
+    "Meat",
+    "Milk",
+    "Plants",
+    "Shellfish",
+    "Vegetables",
+    "Wood"
+  ],
+  "_metadata": {
+    "flagged_at": "2025-04-12T10:14:20.882762",
+    "vendor_count": 0,
+    "original_source": "ai_consolidated_data.json",
+    "flagging_criteria": "low quality score (missing data, low reliability, etc.)"
+  }
+}

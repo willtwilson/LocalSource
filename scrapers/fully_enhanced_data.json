@@ -1,0 +1,1643 @@
+{
+  "vendors": [
+    {
+      "name": "Master Farms St Brelade",
+      "parish": "St. Brelade",
+      "description": "Roadside stall located on Master Farms St Brelade in St Brelade, offering vegetables, jersey royals, and flowers.",
+      "latitude": 49.1822,
+      "longitude": -2.1951,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Flowers"
+      ],
+      "estimated_reliability": 90,
+      "id": "a694d4d4-3e07-4d5b-b932-f6c23dfca0fe",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Route du Francfief",
+      "parish": "St. Brelade",
+      "description": "Roadside stall located on Route du Francfief in St Brelade, offering plants, eggs, and flowers. Cash only.",
+      "latitude": 49.18658857981889,
+      "longitude": -2.1762310229487394,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Plants",
+        "Eggs",
+        "Flowers"
+      ],
+      "estimated_reliability": 90,
+      "id": "57788f40-1041-47e3-a3ad-3dc681072ec9",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "La Rue des Landes Eggs",
+      "parish": "St. Peter",
+      "description": "Roadside stall located on La Rue des Landes Eggs in St Peter, offering eggs.",
+      "latitude": 49.2025,
+      "longitude": -2.1762,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Eggs"
+      ],
+      "estimated_reliability": 85,
+      "id": "cf1e7cf1-b603-4848-af4c-9c6ce1802209",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Warren Farm Noirmont",
+      "parish": "St. Brelade",
+      "description": "Roadside stall located on Warren Farm Noirmont in St Brelade, offering vegetables, eggs, jersey royals, and plants. Cash only.",
+      "latitude": 49.1741,
+      "longitude": -2.1876,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Eggs",
+        "Jersey Royals",
+        "Plants"
+      ],
+      "estimated_reliability": 90,
+      "id": "ad5b48d4-ac03-481d-9053-c3dc403dbdc2",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Rue de la Preterie",
+      "parish": "St. Ouen",
+      "description": "Roadside stall located on Rue de la Preterie in St Ouen, offering fruit, vegetables, and jersey royals. Cash only.",
+      "latitude": 49.21749586984657,
+      "longitude": -2.22708817539159,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Fruit",
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 85,
+      "id": "f4a7d76a-c6a3-4a9c-865e-b25524ccc354",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "9 Le Mont de Ste Marie",
+      "parish": "St. Mary",
+      "description": "Roadside stall located on 9 Le Mont de Ste Marie in St Mary, offering wood. Cash only.",
+      "latitude": 49.2487097445703,
+      "longitude": -2.134351385538686,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Wood"
+      ],
+      "estimated_reliability": 90,
+      "id": "07586513-6d1a-4d7a-bf1d-e0f2f98de9cb",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "La Dimerie",
+      "parish": "St. Mary",
+      "description": "Roadside stall located on La Dimerie in St Mary, offering eggs.",
+      "latitude": 49.24977323083377,
+      "longitude": -2.131117382037948,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Eggs"
+      ],
+      "estimated_reliability": 85,
+      "id": "8c15be4a-8935-42fe-8ed7-68b782e1ba60",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Rue du Petit l'Aleval",
+      "parish": "St. Peter",
+      "description": "Roadside stall located on Rue du Petit l'Aleval in St Peter, offering vegetables, plants, and flowers.",
+      "latitude": 49.202366375185896,
+      "longitude": -2.1732351070528306,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Plants",
+        "Flowers"
+      ],
+      "estimated_reliability": 85,
+      "id": "9197e5ea-0f24-4a07-af23-97b7a2a71596",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "La Rue à Georges",
+      "parish": "St. Mary",
+      "description": "Roadside stall located on La Rue à Georges in St Mary, offering plants, fruit, and flowers. Cash only.",
+      "latitude": 49.237684108340616,
+      "longitude": -2.133094273047078,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Plants",
+        "Fruit",
+        "Flowers"
+      ],
+      "estimated_reliability": 90,
+      "id": "0acf50bb-a019-4724-a463-cd58cc18a045",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Le Mont de la Barcelone",
+      "parish": "St. John",
+      "description": "Roadside stall located on Le Mont de la Barcelone in St John, offering vegetables, jersey royals, and wood. Cash only.",
+      "latitude": 49.23598166635172,
+      "longitude": -2.1123670044157072,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Wood"
+      ],
+      "estimated_reliability": 90,
+      "id": "adb49316-8d56-4390-a2d3-710859272912",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Rue du Cerf",
+      "parish": "St. John",
+      "description": "Roadside stall located on Rue du Cerf in St John, offering vegetables, jersey royals, and flowers.",
+      "latitude": 49.23910667074029,
+      "longitude": -2.1116207920428876,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Flowers"
+      ],
+      "estimated_reliability": 90,
+      "id": "d0add1bf-fabc-4b4c-9afb-c0e1eb249e22",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "La Rue de Bel Air",
+      "parish": "St. Mary",
+      "description": "Roadside stall located on La Rue de Bel Air in St Mary, offering vegetables.",
+      "latitude": 49.23848498483172,
+      "longitude": -2.134005579793297,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables"
+      ],
+      "estimated_reliability": 85,
+      "id": "4fa42303-3ac8-4790-bcab-58061c7a1203",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Cooks Farm Shop",
+      "parish": "Trinity",
+      "description": "Local vendor in St Lawrence offering plants, vegetables, jersey royals, honey, and flowers.",
+      "latitude": 49.23,
+      "longitude": -2.0592,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Plants",
+        "Vegetables",
+        "Jersey Royals",
+        "Honey",
+        "Flowers"
+      ],
+      "estimated_reliability": 85,
+      "id": "5818180e-20d5-4ff8-a968-eee20776e963",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Farm Fields",
+      "parish": "St. Lawrence",
+      "description": "Local vendor in St Lawrence offering eggs and fruit. Cash only.",
+      "latitude": 49.19954161398688,
+      "longitude": -2.135974095745397,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Eggs",
+        "Fruit"
+      ],
+      "estimated_reliability": 90,
+      "id": "ce6e955f-f6c6-4c18-8205-3311b372bc5d",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "La Fraide Rue",
+      "parish": "St. Lawrence",
+      "description": "Roadside stall located on La Fraide Rue in St Lawrence, offering fruit.",
+      "latitude": 49.19010318716047,
+      "longitude": -2.150410240708361,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Fruit"
+      ],
+      "estimated_reliability": 85,
+      "id": "90313fc6-c433-4562-92c3-09194e1eeae3",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Pottage Farm",
+      "parish": "St. Ouen",
+      "description": "Local vendor in St Lawrence offering eggs.",
+      "latitude": 49.2521,
+      "longitude": -2.1949,
+      "organic": null,
+      "cashless_payment": null,
+      "produce_types": [
+        "Eggs"
+      ],
+      "estimated_reliability": 80,
+      "id": "20edefb2-38f8-4079-bcec-3bd09f99980b",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Farm Fresh Organic",
+      "parish": "St. Martin",
+      "description": "Local vendor in St Lawrence offering vegetables, jersey royals, and flowers. Organically grown. Cash only.",
+      "latitude": 49.204,
+      "longitude": -2.0257,
+      "organic": true,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Flowers"
+      ],
+      "estimated_reliability": 90,
+      "id": "41e1aadc-4ae2-4b01-94a0-7622485fa634",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Scoop Organic Farm Shop",
+      "parish": "St. John",
+      "description": "Local vendor in St Lawrence offering vegetables, baked goods, and fruit. Organically grown. Accepts cashless payments.",
+      "latitude": 49.2372,
+      "longitude": -2.1111,
+      "organic": true,
+      "cashless_payment": true,
+      "produce_types": [
+        "Vegetables",
+        "Baked Goods",
+        "Fruit"
+      ],
+      "estimated_reliability": 90,
+      "id": "6fed20a4-4e66-4fc0-a59f-83fe4929642d",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "B&G Growers",
+      "parish": "St. Lawrence",
+      "description": "Local vendor in St Lawrence offering vegetables and jersey royals. Cash only.",
+      "latitude": 49.19187768729304,
+      "longitude": -2.1425812995140823,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 90,
+      "id": "1fbf1c6b-58d6-4771-bde7-99c5ea175e8b",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "The Strawberry Farm",
+      "parish": "St. Peter",
+      "description": "Local vendor in St Lawrence offering vegetables, fruit, and flowers.",
+      "latitude": 49.1991,
+      "longitude": -2.1702,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Fruit",
+        "Flowers"
+      ],
+      "estimated_reliability": 85,
+      "id": "c1d57623-ceda-43ba-a4eb-3adec6b93573",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Le Marinel Farm",
+      "parish": "St. John",
+      "description": "Roadside stall located on Le Marinel Farm in St John, offering vegetables, fruit, plants, and flowers. Cash only.",
+      "latitude": 49.24958646383744,
+      "longitude": -2.109343852358238,
+      "organic": null,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Fruit",
+        "Plants",
+        "Flowers"
+      ],
+      "estimated_reliability": 85,
+      "id": "4967cbc5-8fc5-4e00-9f9f-da5dfa04a4df",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "La Rue des Servais",
+      "parish": "St. John",
+      "description": "Roadside stall located on La Rue des Servais in St John, offering plants.",
+      "latitude": 49.235302174811146,
+      "longitude": -2.1116752034449244,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Plants"
+      ],
+      "estimated_reliability": 85,
+      "id": "0eaf81ea-3eb4-413c-88ac-2786f05223f6",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Le Chasse",
+      "parish": "St. John",
+      "description": "Roadside stall located on Le Chasse in St John, offering vegetables, eggs, and fruit.",
+      "latitude": 49.249487379207096,
+      "longitude": -2.107749766909068,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Eggs",
+        "Fruit"
+      ],
+      "estimated_reliability": 85,
+      "id": "c41b5e14-d5e2-492f-bb4d-b2e4abd9773f",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "La Croiserie",
+      "parish": "Trinity",
+      "description": "Roadside stall located on La Croiserie in Trinity, offering vegetables and eggs.",
+      "latitude": 49.21909439930459,
+      "longitude": -2.065556439244601,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Eggs"
+      ],
+      "estimated_reliability": 85,
+      "id": "35675bcc-8a25-4d0b-918c-d405a131cfc5",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Rue du Pont",
+      "parish": "Trinity",
+      "description": "Roadside stall located on Rue du Pont in Trinity, offering vegetables.",
+      "latitude": 49.228815993448336,
+      "longitude": -2.0586951532424416,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables"
+      ],
+      "estimated_reliability": 85,
+      "id": "6d47ec0e-d871-4ec3-9d22-291cc527c514",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Fungi Delicti",
+      "parish": "St. Mary",
+      "description": "Local vendor in Trinity offering vegetables, eggs, and fruit. Cash only.",
+      "latitude": 49.2393,
+      "longitude": -2.1342,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Eggs",
+        "Fruit"
+      ],
+      "estimated_reliability": 90,
+      "id": "1579b9be-0a4e-4c55-b847-3499947f65d0",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Grande Route de Rozel",
+      "parish": "St. Martin",
+      "description": "Roadside stall located on Grande Route de Rozel in St Martin, offering vegetables. Cash only.",
+      "latitude": 49.20747604312218,
+      "longitude": -2.017374849061043,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables"
+      ],
+      "estimated_reliability": 90,
+      "id": "c5433cd4-1b79-45c7-a0d7-a19346d34041",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Anne Port",
+      "parish": "Unknown",
+      "description": "Local vendor in Unknown offering vegetables.",
+      "latitude": 49.1997864456493,
+      "longitude": -2.1218619532721315,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables"
+      ],
+      "estimated_reliability": 60,
+      "id": "a9792f29-40e3-42b0-8de5-7114aeaa84a1",
+      "flagged": false,
+      "location_accuracy": "parish"
+    },
+    {
+      "name": "Anneville Organic Farm Stall",
+      "parish": "Grouville",
+      "description": "Roadside stall located on Anneville Organic Farm Stall in St Martin, offering vegetables, baked goods, and fruit. Organically grown. Accepts cashless payments.",
+      "latitude": 49.1812,
+      "longitude": -2.0472,
+      "organic": true,
+      "cashless_payment": true,
+      "produce_types": [
+        "Vegetables",
+        "Baked Goods",
+        "Fruit"
+      ],
+      "estimated_reliability": 90,
+      "id": "5852ea1e-627b-40d2-883a-ccbd3dc07091",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Route de la Hougue Bie",
+      "parish": "St. Saviour",
+      "description": "Roadside stall located on Route de la Hougue Bie in St Saviour, offering vegetables and plants.",
+      "latitude": 49.19043776103125,
+      "longitude": -2.0833031121876515,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Plants"
+      ],
+      "estimated_reliability": 85,
+      "id": "774f46af-5c3f-4ba3-846d-657e1dc63b9c",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Jersey Oyster",
+      "parish": "Grouville",
+      "description": "Local vendor in Grouville offering vegetables, jersey royals, shellfish, and fish. Cash only.",
+      "latitude": 49.1786,
+      "longitude": -2.0531,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Shellfish",
+        "Fish"
+      ],
+      "estimated_reliability": 90,
+      "id": "95ec3448-4597-4004-b3a7-a48617609d0a",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "1828 Rue des Nouettes",
+      "parish": "St. Clement",
+      "description": "Roadside stall located on 1828 Rue des Nouettes in St Clement, offering vegetables.",
+      "latitude": 49.178239974354995,
+      "longitude": -2.046274797113732,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables"
+      ],
+      "estimated_reliability": 85,
+      "id": "dfd9cb9a-1a95-47dc-aa64-8bd754f96b41",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "55 Clos du Corvez",
+      "parish": "St. Clement",
+      "description": "Local vendor in St Clement offering eggs. Cash only.",
+      "latitude": 49.17534621050765,
+      "longitude": -2.0333353796518465,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Eggs"
+      ],
+      "estimated_reliability": 90,
+      "id": "67142dc9-adb6-4b0f-9187-0959023ca678",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Boulivot de Haut",
+      "parish": "Grouville",
+      "description": "Local vendor in Grouville offering vegetables.",
+      "latitude": 49.186110229027676,
+      "longitude": -2.0475616778318164,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables"
+      ],
+      "estimated_reliability": 85,
+      "id": "e09c6458-9b68-47f2-8e45-420b2bd8216d",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Rue Saint-Julien",
+      "parish": "St. Martin",
+      "description": "Roadside stall located on Rue Saint-Julien in St Martin, offering vegetables and jersey royals.",
+      "latitude": 49.20613072824446,
+      "longitude": -2.0169908277334017,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 85,
+      "id": "73e376e1-e1b2-4e98-82fe-eb303ec8dc45",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Rue des Buttes",
+      "parish": "St. Martin",
+      "description": "Roadside stall located on Rue des Buttes in St Martin, offering vegetables, eggs, and wood.",
+      "latitude": 49.20570679684713,
+      "longitude": -2.017029485666029,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Eggs",
+        "Wood"
+      ],
+      "estimated_reliability": 85,
+      "id": "e9e51cfe-1ac4-49c8-b2a6-95495f86ea26",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Holme Grown Farmshop",
+      "parish": "St. Ouen",
+      "description": "Local vendor in Grouville offering vegetables, milk, baked goods, eggs, fruit, and meat.",
+      "latitude": 49.2265,
+      "longitude": -2.1772,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Milk",
+        "Baked Goods",
+        "Eggs",
+        "Fruit",
+        "Meat"
+      ],
+      "estimated_reliability": 75,
+      "id": "562a2759-8eb3-4f6b-b320-e61bb8c689d8",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Lucas Bros Farmshop",
+      "parish": "Trinity",
+      "description": "Local vendor in St Brelade offering vegetables, baked goods, fruit, and eggs.",
+      "latitude": 49.2185,
+      "longitude": -2.0637,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Baked Goods",
+        "Fruit",
+        "Eggs"
+      ],
+      "estimated_reliability": 70,
+      "id": "c5da55ec-0c62-4172-856c-f400068eeec4",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Woodside Farmshop",
+      "parish": "St. Lawrence",
+      "description": "Local vendor in Trinity offering wood. Accepts cashless payments.",
+      "latitude": 49.1989,
+      "longitude": -2.1358,
+      "organic": false,
+      "cashless_payment": true,
+      "produce_types": [
+        "Wood"
+      ],
+      "estimated_reliability": 90,
+      "id": "fa6bad83-4736-48e2-b4b5-b13254e81b33",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Rondels Farmshop",
+      "parish": "St. John",
+      "description": "Local vendor in Trinity offering local produce. Accepts cashless payments.",
+      "latitude": 49.2372,
+      "longitude": -2.1111,
+      "organic": false,
+      "cashless_payment": true,
+      "produce_types": [],
+      "estimated_reliability": 70,
+      "id": "1d743a1d-4f1d-4b24-a2fe-a3e0ca26a052",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "The Organic Shop",
+      "parish": "St. Helier",
+      "description": "Local vendor in St Saviour offering vegetables, baked goods, fruit, and eggs. Organically grown. Accepts cashless payments.",
+      "latitude": 49.1831,
+      "longitude": -2.1047,
+      "organic": true,
+      "cashless_payment": true,
+      "produce_types": [
+        "Vegetables",
+        "Baked Goods",
+        "Fruit",
+        "Eggs"
+      ],
+      "estimated_reliability": 80,
+      "id": "fd743b02-0521-474f-8438-97c67aec13c5",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Manor Farm",
+      "parish": "St. Mary",
+      "description": "Local vendor in St Ouen offering vegetables.",
+      "latitude": 49.238,
+      "longitude": -2.1328,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables"
+      ],
+      "estimated_reliability": 85,
+      "id": "8d84f995-3311-4530-8fcf-df426c97236c",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Rue des Geonnais",
+      "parish": "St. Ouen",
+      "description": "Roadside stall located on Rue des Geonnais in St Ouen, offering eggs.",
+      "latitude": 49.253618679077825,
+      "longitude": -2.1945045088155855,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Eggs"
+      ],
+      "estimated_reliability": 85,
+      "id": "09310fef-e485-420b-9825-67de507d8f46",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Route du Port",
+      "parish": "St. Peter",
+      "description": "Roadside stall located on Route du Port in St Peter, offering fruit, vegetables, and jersey royals.",
+      "latitude": 49.19864520763638,
+      "longitude": -2.1694911065918694,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Fruit",
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 85,
+      "id": "4acf568a-e951-4c19-a804-5e8e3f2aec6c",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Le Braye",
+      "parish": "St. Brelade",
+      "description": "Roadside stall located on Le Braye in St Brelade, offering vegetables and jersey royals.",
+      "latitude": 49.18093191272904,
+      "longitude": -2.195962099654953,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 85,
+      "id": "35f52d9f-0df0-4541-b60a-01561607030c",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Rock View",
+      "parish": "St. John",
+      "description": "Local vendor in St Ouen offering vegetables and jersey royals.",
+      "latitude": 49.2493,
+      "longitude": -2.1086,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 85,
+      "id": "1ac44f0e-652e-4131-b961-1382ad22d0d0",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Ruette des Mannaies",
+      "parish": "St. Ouen",
+      "description": "Roadside stall located on Ruette des Mannaies in St Ouen, offering vegetables and jersey royals. Cash only.",
+      "latitude": 49.224901190818755,
+      "longitude": -2.1787939607806885,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 90,
+      "id": "c463aa83-ae58-4bb4-b407-fa78ae7c0d15",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "La Route de Saint-Jean",
+      "parish": "St. John",
+      "description": "Roadside stall located on La Route de Saint-Jean in St John, offering plants.",
+      "latitude": 49.24321433851953,
+      "longitude": -2.1018419532358537,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Plants"
+      ],
+      "estimated_reliability": 85,
+      "id": "9888e122-6c5f-4cbf-9a30-4795a3a3c68b",
+      "flagged": false,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "La Rue des Landes",
+      "parish": "St. John",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on La Rue des Landes in St John, offering vegetables, wood, and flowers. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Wood",
+        "Flowers"
+      ],
+      "confidence": "High",
+      "id": "a299ed9a-1219-46fd-a9c8-ed400449c1ff",
+      "flagged": false,
+      "latitude": 49.2025,
+      "longitude": -2.1762,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Jersey Royals",
+      "parish": "St. Ouen",
+      "description": "Local vendor in St Ouen offering vegetables and jersey royals. Cash only.",
+      "latitude": 49.2193,
+      "longitude": -2.2259,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 85,
+      "id": "337704c7-a0a7-4e5e-b57e-e9c47bbae8dd",
+      "flagged": false,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Homefield Farmshop",
+      "parish": "St. Peter",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Clement offering honey. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Honey"
+      ],
+      "confidence": "High",
+      "id": "82c9a36d-4b4d-4689-b146-8fa07a15028b",
+      "flagged": false,
+      "latitude": 49.2019,
+      "longitude": -2.1739,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Rue de Fliquet",
+      "parish": "St. Martin",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on Rue de Fliquet in St Martin, offering vegetables, jersey royals, and plants. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Plants"
+      ],
+      "confidence": "High",
+      "id": "74965c17-333f-48bf-8366-0ce29c3019ee",
+      "flagged": false,
+      "latitude": 49.197437978190166,
+      "longitude": -2.0197722976782413,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Farmer Richard",
+      "parish": "St. Peter",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Helier offering vegetables. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables"
+      ],
+      "confidence": "High",
+      "id": "37489dc8-3407-4025-824e-33eaacf265cc",
+      "flagged": false,
+      "latitude": 49.208,
+      "longitude": -2.1954,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Me and the Farmer by John Hackett",
+      "parish": "St. Brelade",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Brelade offering baked goods, jersey royals, and meat. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Baked Goods",
+        "Jersey Royals",
+        "Meat"
+      ],
+      "confidence": "High",
+      "id": "c23c6694-d7a3-402f-ab9f-fa8639743f76",
+      "flagged": false,
+      "latitude": 49.1869,
+      "longitude": -2.1772,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Ferndale Farm",
+      "parish": "St. John",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on Ferndale Farm in St Peter, offering vegetables and jersey royals. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "91f0796e-f5d9-44da-b226-25f43e939983",
+      "flagged": false,
+      "latitude": 49.2416,
+      "longitude": -2.1034,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Labey Farm",
+      "parish": "Grouville",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on Labey Farm in St Ouen, offering vegetables and jersey royals. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "4e65ec8b-c80d-42ce-8c07-fdbb4bd56267",
+      "flagged": false,
+      "latitude": 49.1813,
+      "longitude": -2.0477,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Route des Millais",
+      "parish": "St. Ouen",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on Route des Millais in St Ouen, offering vegetables and jersey royals. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "e700c46f-3483-4b4b-a8a0-c98e576e88a2",
+      "flagged": false,
+      "latitude": 49.22538648496874,
+      "longitude": -2.1759108077916043,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Vallee des vaux",
+      "parish": "St. Helier",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on Vallee des vaux in St Helier, offering vegetables and plants. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Plants"
+      ],
+      "confidence": "High",
+      "id": "cf57a3e1-74b3-408a-9a35-1354aa2201c7",
+      "flagged": false,
+      "latitude": 49.18454628193969,
+      "longitude": -2.104588849802009,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "The Jersey Potato Shack",
+      "parish": "St. Brelade",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Helier offering fruit, vegetables, and jersey royals. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Fruit",
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "d4a1e961-af12-4fa9-87ac-229d8d72e30f",
+      "flagged": false,
+      "latitude": 49.1822,
+      "longitude": -2.1943,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Petit Menage Farm",
+      "parish": "St. Ouen",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Saviour offering vegetables, eggs, and wood. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Eggs",
+        "Wood"
+      ],
+      "confidence": "High",
+      "id": "8d9ac9fe-632d-4dc6-ab6d-6840201c0780",
+      "flagged": false,
+      "latitude": 49.2265,
+      "longitude": -2.1772,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Cluckingham Palace",
+      "parish": "St. John",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on Cluckingham Palace in St Saviour, offering eggs. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Eggs"
+      ],
+      "confidence": "High",
+      "id": "bda532f4-6094-4488-b43c-c47999f0bd1b",
+      "flagged": false,
+      "latitude": 49.2416,
+      "longitude": -2.1034,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Meleches Farm",
+      "parish": "St. John",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on Meleches Farm in St Helier, offering vegetables and jersey royals. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "6644b116-8e74-44d9-9a92-995a5044e167",
+      "flagged": false,
+      "latitude": 49.2416,
+      "longitude": -2.1034,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Jersey Wonders by Babs",
+      "parish": "St. Helier",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in Grouville offering baked goods. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "confidence": "High",
+      "id": "52e3a650-a3e4-40f5-a7b3-a870834621ac",
+      "flagged": false,
+      "latitude": 49.1835,
+      "longitude": -2.106,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Rue des Cateaux",
+      "parish": "Trinity",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on Rue des Cateaux in Trinity, offering vegetables, eggs, and fruit. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Eggs",
+        "Fruit"
+      ],
+      "confidence": "High",
+      "id": "2e2cd4bb-25e7-46a4-a7a6-a0ea634191a6",
+      "flagged": false,
+      "latitude": 49.228813544152175,
+      "longitude": -2.0588352957444394,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "La route des hetres",
+      "parish": "St. Peter",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on La route des hetres in St Peter, offering fruit, vegetables, and jersey royals. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Fruit",
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "9ac198f6-6f00-486c-8500-8b0f77e871d7",
+      "flagged": false,
+      "latitude": 49.197808179552844,
+      "longitude": -2.168786358786755,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Master Farms Grouville",
+      "parish": "Grouville",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on Master Farms Grouville in Grouville, offering vegetables, jersey royals, and flowers. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Flowers"
+      ],
+      "confidence": "High",
+      "id": "8eab8f4c-5121-41a5-8e74-2501a937df83",
+      "flagged": false,
+      "latitude": 49.1813,
+      "longitude": -2.0477,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Master Farms Trinity",
+      "parish": "Trinity",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in Trinity offering vegetables, jersey royals, and flowers. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Flowers"
+      ],
+      "confidence": "High",
+      "id": "7fccef7a-80e1-4e21-b9f1-f3237daea23b",
+      "flagged": false,
+      "latitude": 49.2297,
+      "longitude": -2.0592,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "La Tacheron 'Bake Box'",
+      "parish": "Trinity",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on La Tacheron 'Bake Box' in Trinity, offering baked goods. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "confidence": "High",
+      "id": "4c5ce3b6-1f51-4c50-96f7-765bdb62608c",
+      "flagged": false,
+      "latitude": 49.2185,
+      "longitude": -2.0637,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Bessie's biscuits & cupcakes",
+      "parish": "St. Helier",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Martin offering baked goods. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "confidence": "High",
+      "id": "10b7188c-18e6-4d43-8656-68c249c2f80f",
+      "flagged": false,
+      "latitude": 49.1843,
+      "longitude": -2.1003,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Chemin des Monts Plants",
+      "parish": "St. Ouen",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on Chemin des Monts Plants in St Ouen, offering plants. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Plants"
+      ],
+      "confidence": "High",
+      "id": "a9c9b766-72be-489e-af64-5c471c1500da",
+      "flagged": false,
+      "latitude": 49.21865908049534,
+      "longitude": -2.224447030121218,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "The Cake Box",
+      "parish": "St. Lawrence",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Martin offering baked goods. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "confidence": "High",
+      "id": "beb76b77-e402-45db-bb41-4256cf348220",
+      "flagged": false,
+      "latitude": 49.1891,
+      "longitude": -2.1495,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Daisy’s Country Bakes",
+      "parish": "St. Lawrence",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Lawrence offering plants, baked goods, and flowers. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Plants",
+        "Baked Goods",
+        "Flowers"
+      ],
+      "confidence": "High",
+      "id": "066cc27a-8eef-4536-965d-496948f3f69a",
+      "flagged": false,
+      "latitude": 49.19068729416652,
+      "longitude": -2.1484889268517113,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "The Wonder Stall",
+      "parish": "St. Martin",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Martin offering baked goods. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "confidence": "High",
+      "id": "7b00964b-3ec4-4422-afff-6537990a3446",
+      "flagged": false,
+      "latitude": 49.1946,
+      "longitude": -2.0733,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Westies Dairy Free Cakes",
+      "parish": "St. Peter",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Peter offering vegetables, baked goods, and milk. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Baked Goods",
+        "Milk"
+      ],
+      "confidence": "High",
+      "id": "b04a6161-7792-4c00-83da-fc6e6d31a619",
+      "flagged": false,
+      "latitude": 49.2019,
+      "longitude": -2.1739,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "The Ranch Honesty Box",
+      "parish": "St. Peter",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Peter offering vegetables and fruit. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Fruit"
+      ],
+      "confidence": "High",
+      "id": "30bace09-42f4-4238-8502-f7523721ac78",
+      "flagged": false,
+      "latitude": 49.208,
+      "longitude": -2.1954,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "The Easter Eggers of Oakvale",
+      "parish": "Trinity",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on The Easter Eggers of Oakvale in St Saviour, offering eggs. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Eggs"
+      ],
+      "confidence": "High",
+      "id": "cf49a3f2-469e-4d7f-8669-f06ef9d8b249",
+      "flagged": false,
+      "latitude": 49.23,
+      "longitude": -2.0592,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Little Bird Bakes",
+      "parish": "St. Lawrence",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on Little Bird Bakes in St Martin, offering baked goods. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "confidence": "High",
+      "id": "d3721792-29ee-4911-aebb-6c8f239621f1",
+      "flagged": false,
+      "latitude": 49.1909,
+      "longitude": -2.143,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Crabs Direct",
+      "parish": "St. Clement",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Clement offering meat, shellfish, and fish. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Meat",
+        "Shellfish",
+        "Fish"
+      ],
+      "confidence": "High",
+      "id": "c4803099-853c-4e12-a49a-79db24b423d2",
+      "flagged": false,
+      "latitude": 49.1786,
+      "longitude": -2.0531,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Jade-S Fisheries - St. Aubins",
+      "parish": "St. Brelade",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Brelade offering shellfish and fish. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Shellfish",
+        "Fish"
+      ],
+      "confidence": "High",
+      "id": "a1169378-ffca-4a9e-8311-a6a569cc1f6e",
+      "flagged": false,
+      "latitude": 49.1871,
+      "longitude": -2.1666,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Jade-S Fisheries - Long Beach",
+      "parish": "St. Clement",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in Grouville offering shellfish and fish. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Shellfish",
+        "Fish"
+      ],
+      "confidence": "High",
+      "id": "f9251fe5-5769-428f-a248-7bf8d44fab7f",
+      "flagged": false,
+      "latitude": 49.1786,
+      "longitude": -2.0531,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Jade-S Fisheries - St Ouen Community Centre",
+      "parish": "St. Ouen",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Ouen offering shellfish and fish. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Shellfish",
+        "Fish"
+      ],
+      "confidence": "High",
+      "id": "21e89c59-52d6-4f44-94ed-8c3d8acf30b8",
+      "flagged": false,
+      "latitude": 49.2265,
+      "longitude": -2.1772,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "G and H Agriculture",
+      "parish": "St. Ouen",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Peter offering vegetables, eggs, and jersey royals. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Eggs",
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "d5759253-ba69-4c3a-bd8a-c059d2f459f5",
+      "flagged": false,
+      "latitude": 49.2193,
+      "longitude": -2.2259,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "The Succulents' Lady",
+      "parish": "St. Clement",
+      "organic": "No",
+      "cashless_payment": true,
+      "is_farm_shop": "No",
+      "description": "Providing succulents of different varieties in specially chosen containers, making features of both elements. Plus other plants when available. Also includes Macrame hangers etc on occasion.",
+      "produce_types": [
+        "Plants"
+      ],
+      "confidence": "High",
+      "id": "e94caa1e-857d-438b-9b78-11ec250692b0",
+      "flagged": false,
+      "latitude": 49.174958540103745,
+      "longitude": -2.0588892146205953,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "La crete shellfish",
+      "parish": "St. Martin",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on La crete shellfish in St Clement, offering shellfish and fish. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Shellfish",
+        "Fish"
+      ],
+      "confidence": "High",
+      "id": "08e05991-6581-4eef-858a-fb4c23cce6c5",
+      "flagged": false,
+      "latitude": 49.204,
+      "longitude": -2.0257,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Playful Paws Honesty Box",
+      "parish": "Trinity",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on Playful Paws Honesty Box in St Ouen, offering local produce. Organically grown. Accepts cashless payments.",
+      "produce_types": [],
+      "confidence": "Medium",
+      "id": "71e21679-2955-466b-a59b-cfebc2fd62d6",
+      "flagged": false,
+      "latitude": 49.23,
+      "longitude": -2.0592,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Plemont Royals",
+      "parish": "St. Ouen",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on Plemont Royals in St Ouen, offering jersey royals. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "b96beb5c-4708-44d1-a4f9-1d34f622a3ac",
+      "flagged": false,
+      "latitude": 49.2521,
+      "longitude": -2.1949,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Sunshine Stall",
+      "parish": "St. Peter",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Peter offering vegetables. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables"
+      ],
+      "confidence": "High",
+      "id": "060c9903-beb3-4204-bab9-b006da1ce5a7",
+      "flagged": false,
+      "latitude": 49.19960353738149,
+      "longitude": -2.1698249032406003,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Hamptonne Farm",
+      "parish": "St. Lawrence",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Lawrence offering eggs. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Eggs"
+      ],
+      "confidence": "High",
+      "id": "95be8fe3-8586-4ac6-8f6f-ce127c787dac",
+      "flagged": false,
+      "latitude": 49.2307,
+      "longitude": -2.1237,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "The Salvation Army Honesty Box",
+      "parish": "St. Helier",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in St Martin offering jersey royals. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "3bd6073f-6695-45a2-bfca-de04822d2c15",
+      "flagged": false,
+      "latitude": 49.1843,
+      "longitude": -2.1003,
+      "location_accuracy": "high"
+    },
+    {
+      "name": "Bramble",
+      "parish": "St. Mary",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Roadside stall located on Bramble in St Mary, offering vegetables, plants, and flowers. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Vegetables",
+        "Plants",
+        "Flowers"
+      ],
+      "confidence": "High",
+      "id": "0a3e8c2b-fbf5-492e-b4c9-adcbad8411fc",
+      "flagged": false,
+      "latitude": 49.24078715660217,
+      "longitude": -2.1342425769397035,
+      "location_accuracy": "medium"
+    },
+    {
+      "name": "Acorn Honesty Box",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Local vendor in Unknown offering jersey royals. Organically grown. Accepts cashless payments.",
+      "produce_types": [
+        "Jersey Royals"
+      ],
+      "confidence": "Medium",
+      "id": "1cbf7617-d7e6-417f-9911-457167c92324",
+      "flagged": false,
+      "latitude": 49.1931,
+      "longitude": -2.0743,
+      "location_accuracy": "high"
+    }
+  ],
+  "parishes": [
+    "Grouville",
+    "St Brelade",
+    "St Clement",
+    "St Helier",
+    "St John",
+    "St Lawrence",
+    "St Martin",
+    "St Mary",
+    "St Ouen",
+    "St Peter",
+    "St Saviour",
+    "Trinity"
+  ],
+  "produce_types": [
+    "Baked Goods",
+    "Eggs",
+    "Fish",
+    "Flowers",
+    "Fruit",
+    "Honey",
+    "Jersey Royals",
+    "Meat",
+    "Milk",
+    "Plants",
+    "Shellfish",
+    "Vegetables",
+    "Wood"
+  ],
+  "_metadata": {
+    "geocoded_count": 91,
+    "geocoding_timestamp": 1744455179.0847666,
+    "geocoding_method": "parish-based approximation",
+    "coordinates_timestamp": "2025-04-12T11:19:25Z",
+    "high_accuracy_count": 51,
+    "high_accuracy_percentage": 56.043956043956044,
+    "medium_accuracy_count": 39,
+    "medium_accuracy_percentage": 42.857142857142854,
+    "improved_accuracy_percentage": 98.9010989010989,
+    "total_vendors": 91,
+    "research_timestamp": "2025-04-12T11:23:15Z",
+    "low_accuracy_count": 1,
+    "low_accuracy_percentage": 1.098901098901099
+  }
+}

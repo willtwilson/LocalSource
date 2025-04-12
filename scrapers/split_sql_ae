@@ -1,0 +1,98 @@
+BEGIN;
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('a1169378-ffca-4a9e-8311-a6a569cc1f6e', '568120ad-5504-44c7-b0c6-9c930d9b4632', 'Limited')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Limited',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('f9251fe5-5769-428f-a248-7bf8d44fab7f', '2b3df143-3ec5-472c-8380-b08526d075af', 'Seasonal')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Seasonal',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('f9251fe5-5769-428f-a248-7bf8d44fab7f', '568120ad-5504-44c7-b0c6-9c930d9b4632', 'Seasonal')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Seasonal',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('21e89c59-52d6-4f44-94ed-8c3d8acf30b8', '2b3df143-3ec5-472c-8380-b08526d075af', 'Year-round')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Year-round',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('21e89c59-52d6-4f44-94ed-8c3d8acf30b8', '568120ad-5504-44c7-b0c6-9c930d9b4632', 'Year-round')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Year-round',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('d5759253-ba69-4c3a-bd8a-c059d2f459f5', '11d605d4-ce7b-43f8-ba0f-84584bc9a0b2', 'Year-round')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Year-round',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('d5759253-ba69-4c3a-bd8a-c059d2f459f5', '0644be93-7270-4a52-9a6e-3571b389f69a', 'Year-round')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Year-round',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('d5759253-ba69-4c3a-bd8a-c059d2f459f5', '8412146c-21ec-4c58-bc9b-528732bb631a', 'Year-round')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Year-round',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('e94caa1e-857d-438b-9b78-11ec250692b0', 'edb9ac52-0092-4fa8-bb27-50b2d831a144', 'Year-round')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Year-round',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('08e05991-6581-4eef-858a-fb4c23cce6c5', '2b3df143-3ec5-472c-8380-b08526d075af', 'Seasonal')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Seasonal',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('08e05991-6581-4eef-858a-fb4c23cce6c5', '568120ad-5504-44c7-b0c6-9c930d9b4632', 'Limited')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Limited',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('b96beb5c-4708-44d1-a4f9-1d34f622a3ac', '8412146c-21ec-4c58-bc9b-528732bb631a', 'Limited')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Limited',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('060c9903-beb3-4204-bab9-b006da1ce5a7', '11d605d4-ce7b-43f8-ba0f-84584bc9a0b2', 'Limited')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Limited',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('95be8fe3-8586-4ac6-8f6f-ce127c787dac', '0644be93-7270-4a52-9a6e-3571b389f69a', 'Limited')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Limited',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('3bd6073f-6695-45a2-bfca-de04822d2c15', '8412146c-21ec-4c58-bc9b-528732bb631a', 'Seasonal')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Seasonal',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('0a3e8c2b-fbf5-492e-b4c9-adcbad8411fc', '11d605d4-ce7b-43f8-ba0f-84584bc9a0b2', 'Limited')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Limited',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('0a3e8c2b-fbf5-492e-b4c9-adcbad8411fc', 'edb9ac52-0092-4fa8-bb27-50b2d831a144', 'Seasonal')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Seasonal',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('0a3e8c2b-fbf5-492e-b4c9-adcbad8411fc', '5b08af19-4b06-4f96-bfbd-36d417d34a8b', 'Seasonal')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Seasonal',
+  updated_at = NOW();
+INSERT INTO public.vendor_produce (vendor_id, produce_id, availability)
+VALUES ('1cbf7617-d7e6-417f-9911-457167c92324', '8412146c-21ec-4c58-bc9b-528732bb631a', 'Limited')
+ON CONFLICT (vendor_id, produce_id) DO UPDATE SET
+  availability = 'Limited',
+  updated_at = NOW();
+
+COMMIT;

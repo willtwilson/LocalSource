@@ -1,0 +1,52 @@
+# Use an official Node.js runtime as a parent image
+# Using node 20 slim for smaller image size
+FROM node:20-slim
+
+# Set environment variables
+ENV NODE_ENV=development
+ENV VITE_HOST=0.0.0.0
+ENV VITE_PORT=5173
+
+# Install necessary packages for health check and potential dependencies
+# Add Tailscale installation steps
+RUN apt-get update && apt-get install -y \
+    curl \
+    gnupg \
+    apt-transport-https \
+    # Add any other necessary system dependencies here
+    && curl -fsSL https://pkgs.tailscale.com/stable/debian/bookworm.noarmor.gpg | tee /usr/share/keyrings/tailscale-archive-keyring.gpg > /dev/null \
+    && curl -fsSL https://pkgs.tailscale.com/stable/debian/bookworm.tailscale-keyring.list | tee /etc/apt/sources.list.d/tailscale.list \
+    && apt-get update \
+    && apt-get install -y tailscale \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy package.json and package-lock.json (if available)
+# Using separate COPY commands leverages Docker cache
+COPY package.json ./
+# COPY package-lock.json ./
+
+# Install project dependencies (using npm install instead of npm ci)
+# This will generate a package-lock.json if one doesn't exist
+# Consider installing npm 9 explicitly if base image doesn't have it
+RUN npm install -g npm@9.x # Ensure a consistent modern npm version
+RUN npm install
+
+# Copy the rest of the application code
+COPY . .
+
+# Expose the Vite port and HMR port
+EXPOSE 5173
+EXPOSE 24678
+
+# Command to run the Vite development server
+# CMD is overridden by ENTRYPOINT script
+
+# Use an entrypoint script to handle Tailscale networking
+COPY docker-entrypoint.dev.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.dev.sh
+
+ENTRYPOINT ["docker-entrypoint.dev.sh"]
+CMD ["npm", "run", "dev"] # Default command passed to entrypoint 

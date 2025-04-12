@@ -1,0 +1,1370 @@
+{
+  "vendors": [
+    {
+      "name": "Master Farms St Brelade",
+      "parish": "St Brelade",
+      "description": "Master Farms St Brelade is a vendor located in the parish of St Brelade. They sell vegetables, Jersey Royals, and flowers. They do not offer organic produce or operate as a farm shop.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Flowers"
+      ],
+      "estimated_reliability": 90,
+      "id": "a694d4d4-3e07-4d5b-b932-f6c23dfca0fe"
+    },
+    {
+      "name": "Route du Francfief",
+      "parish": "St Brelade",
+      "description": "Route du Francfief is a vendor located in the parish of St Brelade, Jersey. They offer a great range of plants, eggs, flowers, as well as hay and second-hand items. They do not have organic certification or cashless payment options.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Plants",
+        "Eggs",
+        "Flowers"
+      ],
+      "estimated_reliability": 90,
+      "id": "57788f40-1041-47e3-a3ad-3dc681072ec9"
+    },
+    {
+      "name": "La Rue des Landes Eggs",
+      "parish": "St Peter",
+      "description": "La Rue des Landes Eggs is a small egg producer located in the parish of St Peter, Jersey. They sell fresh eggs that are not certified organic. It is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Eggs"
+      ],
+      "estimated_reliability": 85,
+      "id": "cf1e7cf1-b603-4848-af4c-9c6ce1802209"
+    },
+    {
+      "name": "Warren Farm Noirmont",
+      "parish": "St Brelade",
+      "description": "Warren Farm Noirmont is a farm vendor located in the parish of St Brelade, Jersey. They sell Jersey Royals, vegetables, plants, and eggs. The farm does not have organic certification or cashless payment options.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Eggs",
+        "Jersey Royals",
+        "Plants"
+      ],
+      "estimated_reliability": 90,
+      "id": "ad5b48d4-ac03-481d-9053-c3dc403dbdc2"
+    },
+    {
+      "name": "Rue de la Preterie",
+      "parish": "St Ouen",
+      "description": "Roadside produce stall located on Rue de la Preterie in St Ouen parish. Sells a variety of locally grown vegetables, including Jersey Royals, as well as fruit and melons in late summer. Does not accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Fruit",
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 85,
+      "id": "f4a7d76a-c6a3-4a9c-865e-b25524ccc354"
+    },
+    {
+      "name": "9 Le Mont de Ste Marie",
+      "parish": "St Mary",
+      "description": "9 Le Mont de Ste Marie is a vendor located in the parish of St Mary. They sell wood products and do not offer organic produce or cashless payment options.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Wood"
+      ],
+      "estimated_reliability": 90,
+      "id": "07586513-6d1a-4d7a-bf1d-e0f2f98de9cb"
+    },
+    {
+      "name": "La Dimerie",
+      "parish": "St Mary",
+      "description": "La Dimerie is a vendor located in the parish of St Mary, Jersey. They sell eggs and do not have organic certification or a farm shop. It is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Eggs"
+      ],
+      "estimated_reliability": 85,
+      "id": "8c15be4a-8935-42fe-8ed7-68b782e1ba60"
+    },
+    {
+      "name": "Rue du Petit l'Aleval",
+      "parish": "St Peter",
+      "description": "Rue du Petit l'Aleval is a vendor located in the parish of St Peter. They sell vegetables, plants, and flowers. It is not an organic farm or farm shop, and it is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Plants",
+        "Flowers"
+      ],
+      "estimated_reliability": 85,
+      "id": "9197e5ea-0f24-4a07-af23-97b7a2a71596"
+    },
+    {
+      "name": "La Rue \u00e0 Georges",
+      "parish": "St Mary",
+      "description": "La Rue \u00e0 Georges is a vendor located in the parish of St Mary, Jersey. They sell fresh produce including apples in late summer, as well as flowers, plants, and other fruit. They do not offer organic produce or cashless payment options.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Plants",
+        "Fruit",
+        "Flowers"
+      ],
+      "estimated_reliability": 90,
+      "id": "0acf50bb-a019-4724-a463-cd58cc18a045"
+    },
+    {
+      "name": "Le Mont de la Barcelone",
+      "parish": "St John",
+      "description": "Le Mont de la Barcelone is a vendor located in the parish of St John, Jersey. They sell vegetables, Jersey Royals, and wood products. They do not offer organic produce or cashless payment options.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Wood"
+      ],
+      "estimated_reliability": 90,
+      "id": "adb49316-8d56-4390-a2d3-710859272912"
+    },
+    {
+      "name": "Rue du Cerf",
+      "parish": "St John",
+      "description": "Rue du Cerf is a vendor located in the parish of St John, Jersey. They sell vegetables, Jersey Royal potatoes, and flowers. They do not offer organic produce or operate as a farm shop.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Flowers"
+      ],
+      "estimated_reliability": 90,
+      "id": "d0add1bf-fabc-4b4c-9afb-c0e1eb249e22"
+    },
+    {
+      "name": "La Rue de Bel Air",
+      "parish": "St Mary",
+      "description": "La Rue de Bel Air is a vendor located in the parish of St Mary, Jersey. They sell vegetables but do not offer organic produce or operate as a farm shop. It is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables"
+      ],
+      "estimated_reliability": 85,
+      "id": "4fa42303-3ac8-4790-bcab-58061c7a1203"
+    },
+    {
+      "name": "Cooks Farm Shop",
+      "parish": "St Lawrence",
+      "description": "Cooks Farm Shop is a vendor located in the parish of St Lawrence, Jersey. They sell a variety of local produce including vegetables, Jersey Royals, plants, flowers, and honey. They do not offer organic produce and it is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Plants",
+        "Vegetables",
+        "Jersey Royals",
+        "Honey",
+        "Flowers"
+      ],
+      "estimated_reliability": 85,
+      "id": "5818180e-20d5-4ff8-a968-eee20776e963"
+    },
+    {
+      "name": "Farm Fields",
+      "parish": "St Lawrence",
+      "description": "Farm Fields is a farm located in the parish of St Lawrence, Jersey. They sell fresh eggs and Jersey cloudy apple juice. They do not offer organic produce or cashless payment options, and they are not a farm shop.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Eggs",
+        "Fruit"
+      ],
+      "estimated_reliability": 90,
+      "id": "ce6e955f-f6c6-4c18-8205-3311b372bc5d"
+    },
+    {
+      "name": "La Fraide Rue",
+      "parish": "St Lawrence",
+      "description": "La Fraide Rue is a vendor located in the parish of St Lawrence, Jersey. They sell apples and damsons during late summer. Their produce types include fruit.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Fruit"
+      ],
+      "estimated_reliability": 85,
+      "id": "90313fc6-c433-4562-92c3-09194e1eeae3"
+    },
+    {
+      "name": "Pottage Farm",
+      "parish": "St Lawrence",
+      "description": "Pottage Farm is a producer located in the parish of St Lawrence, Jersey. They sell eggs and do not have an on-site farm shop. It is unclear if they accept cashless payments or are an organic operation.",
+      "latitude": null,
+      "longitude": null,
+      "organic": null,
+      "cashless_payment": null,
+      "produce_types": [
+        "Eggs"
+      ],
+      "estimated_reliability": 80,
+      "id": "20edefb2-38f8-4079-bcec-3bd09f99980b"
+    },
+    {
+      "name": "Farm Fresh Organic",
+      "parish": "St Lawrence",
+      "description": "Farm Fresh Organic is a vendor located in the parish of St Lawrence, Jersey. They offer organic vegetables, Jersey Royal potatoes, and flowers. Cash payment is accepted.",
+      "latitude": null,
+      "longitude": null,
+      "organic": true,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Flowers"
+      ],
+      "estimated_reliability": 90,
+      "id": "41e1aadc-4ae2-4b01-94a0-7622485fa634"
+    },
+    {
+      "name": "Scoop Organic Farm Shop",
+      "parish": "St Lawrence",
+      "description": "Scoop Organic Farm Shop is a non-profit, community-owned store located in the parish of St Lawrence. It specializes in selling organic and locally-sourced produce, as well as sustainable homewares. The shop accepts cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": true,
+      "cashless_payment": true,
+      "produce_types": [
+        "Vegetables",
+        "Baked Goods",
+        "Fruit"
+      ],
+      "estimated_reliability": 90,
+      "id": "6fed20a4-4e66-4fc0-a59f-83fe4929642d"
+    },
+    {
+      "name": "B&G Growers",
+      "parish": "St Lawrence",
+      "description": "B&G Growers is a farm located in the parish of St Lawrence, Jersey. They grow and sell vegetables, including the famous Jersey Royal potatoes. They do not offer organic produce or cashless payment options.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 90,
+      "id": "1fbf1c6b-58d6-4771-bde7-99c5ea175e8b"
+    },
+    {
+      "name": "The Strawberry Farm",
+      "parish": "St Lawrence",
+      "description": "The Strawberry Farm is a produce vendor located in the parish of St Lawrence, Jersey. They sell a variety of fresh produce including vegetables, flowers, and fruit. The Strawberry Farm does not have organic certification, and it is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Fruit",
+        "Flowers"
+      ],
+      "estimated_reliability": 85,
+      "id": "c1d57623-ceda-43ba-a4eb-3adec6b93573"
+    },
+    {
+      "name": "Le Marinel Farm",
+      "parish": "St John",
+      "description": "Le Marinel Farm is a producer located in the parish of St John, Jersey. They offer a wide range of locally grown produce including vegetables, flowers, fruit, and plants. Le Marinel Farm does not have organic certification but also does not explicitly state using non-organic methods. They accept cash payments on-site.",
+      "latitude": null,
+      "longitude": null,
+      "organic": null,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Fruit",
+        "Plants",
+        "Flowers"
+      ],
+      "estimated_reliability": 85,
+      "id": "4967cbc5-8fc5-4e00-9f9f-da5dfa04a4df"
+    },
+    {
+      "name": "La Rue des Servais",
+      "parish": "St John",
+      "description": "La Rue des Servais is a vendor located in the parish of St John, Jersey. They sell plants but do not offer organic produce or operate as a farm shop. It is unknown if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Plants"
+      ],
+      "estimated_reliability": 85,
+      "id": "0eaf81ea-3eb4-413c-88ac-2786f05223f6"
+    },
+    {
+      "name": "Le Chasse",
+      "parish": "St John",
+      "description": "Le Chasse is a vendor located in the parish of St John, Jersey. They sell a variety of locally grown produce including vegetables, eggs, and fruit. According to the available information, their produce is not certified organic.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Eggs",
+        "Fruit"
+      ],
+      "estimated_reliability": 85,
+      "id": "c41b5e14-d5e2-492f-bb4d-b2e4abd9773f"
+    },
+    {
+      "name": "La Croiserie",
+      "parish": "Trinity",
+      "description": "La Croiserie is a vendor located in the parish of Trinity, Jersey. They sell vegetables and eggs, but do not offer organic produce or operate as a farm shop. It is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Eggs"
+      ],
+      "estimated_reliability": 85,
+      "id": "35675bcc-8a25-4d0b-918c-d405a131cfc5"
+    },
+    {
+      "name": "Rue du Pont",
+      "parish": "Trinity",
+      "description": "Rue du Pont is a vendor located in the parish of Trinity, Jersey. They sell vegetables but do not offer organic produce or operate as a farm shop. It is unknown if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables"
+      ],
+      "estimated_reliability": 85,
+      "id": "6d47ec0e-d871-4ec3-9d22-291cc527c514"
+    },
+    {
+      "name": "Fungi Delicti",
+      "parish": "Trinity",
+      "description": "Fungi Delicti is a vendor located in the parish of Trinity, Jersey. They sell a variety of locally grown produce including vegetables, eggs, and fruit. They do not offer organic produce or cashless payment options.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Eggs",
+        "Fruit"
+      ],
+      "estimated_reliability": 90,
+      "id": "1579b9be-0a4e-4c55-b847-3499947f65d0"
+    },
+    {
+      "name": "Grande Route de Rozel",
+      "parish": "St Martin",
+      "description": "Grande Route de Rozel is a roadside stall located in the parish of St Martin. They sell fresh vegetables during the late summer harvest season. The stall does not offer organic produce or cashless payment options.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables"
+      ],
+      "estimated_reliability": 90,
+      "id": "c5433cd4-1b79-45c7-a0d7-a19346d34041"
+    },
+    {
+      "name": "Anne Port",
+      "parish": "Unknown",
+      "description": "Anne Port is a vendor selling vegetables in Jersey. They do not have an organic certification and it is unknown if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables"
+      ],
+      "estimated_reliability": 60,
+      "id": "a9792f29-40e3-42b0-8de5-7114aeaa84a1"
+    },
+    {
+      "name": "Anneville Organic Farm Stall",
+      "parish": "St Martin",
+      "description": "Anneville Organic Farm Stall is an organic farm stall located in the parish of St Martin. It offers a great variety of organic produce including vegetables, fruit, baked goods, and other organic goodness. The stall is situated down a beautiful lane and accepts cashless payments via bank cards, Revolut, and contactless methods.",
+      "latitude": null,
+      "longitude": null,
+      "organic": true,
+      "cashless_payment": true,
+      "produce_types": [
+        "Vegetables",
+        "Baked Goods",
+        "Fruit"
+      ],
+      "estimated_reliability": 90,
+      "id": "5852ea1e-627b-40d2-883a-ccbd3dc07091"
+    },
+    {
+      "name": "Route de la Hougue Bie",
+      "parish": "St Saviour",
+      "description": "Route de la Hougue Bie is a vendor located in the parish of St Saviour, Jersey. They sell vegetables and plants, and do not offer organic produce or operate as a farm shop. It is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Plants"
+      ],
+      "estimated_reliability": 85,
+      "id": "774f46af-5c3f-4ba3-846d-657e1dc63b9c"
+    },
+    {
+      "name": "Jersey Oyster",
+      "parish": "Grouville",
+      "description": "Jersey Oyster is a vendor located in the parish of Grouville. They sell locally-sourced Jersey Royals, vegetables, fish, and shellfish. They do not offer organic produce or cashless payment options.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Shellfish",
+        "Fish"
+      ],
+      "estimated_reliability": 90,
+      "id": "95ec3448-4597-4004-b3a7-a48617609d0a"
+    },
+    {
+      "name": "1828 Rue des Nouettes",
+      "parish": "St Clement",
+      "description": "1828 Rue des Nouettes is a vendor located in the parish of St Clement, Jersey. They sell vegetables but do not offer organic produce or operate as a farm shop. It is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables"
+      ],
+      "estimated_reliability": 85,
+      "id": "dfd9cb9a-1a95-47dc-aa64-8bd754f96b41"
+    },
+    {
+      "name": "55 Clos du Corvez",
+      "parish": "St Clement",
+      "description": "55 Clos du Corvez is a vendor located in the parish of St Clement, Jersey. They sell eggs and do not offer cashless payment options or operate as a farm shop. The vendor is not certified as organic.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Eggs"
+      ],
+      "estimated_reliability": 90,
+      "id": "67142dc9-adb6-4b0f-9187-0959023ca678"
+    },
+    {
+      "name": "Boulivot de Haut",
+      "parish": "Grouville",
+      "description": "Boulivot de Haut is a vendor located in the parish of Grouville, Jersey. They sell vegetables and do not offer organic produce or operate as a farm shop. It is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables"
+      ],
+      "estimated_reliability": 85,
+      "id": "e09c6458-9b68-47f2-8e45-420b2bd8216d"
+    },
+    {
+      "name": "Rue Saint-Julien",
+      "parish": "St Martin",
+      "description": "Rue Saint-Julien is a vendor located in the parish of St Martin, Jersey. They sell vegetables, including the famous Jersey Royal potatoes. The produce is not certified organic, and it is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 85,
+      "id": "73e376e1-e1b2-4e98-82fe-eb303ec8dc45"
+    },
+    {
+      "name": "Rue des Buttes",
+      "parish": "St Martin",
+      "description": "Rue des Buttes is a vendor located in the parish of St Martin, Jersey. They sell vegetables, eggs, and wood products. It is not an organic or farm shop vendor, and it is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Eggs",
+        "Wood"
+      ],
+      "estimated_reliability": 85,
+      "id": "e9e51cfe-1ac4-49c8-b2a6-95495f86ea26"
+    },
+    {
+      "name": "Holme Grown Farmshop",
+      "parish": "Grouville",
+      "description": "Holme Grown Farmshop is a farm shop located in the parish of Grouville. It does not sell organic produce and does not operate as a dedicated farm shop. Information about cashless payment options is currently unavailable.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Milk",
+        "Baked Goods",
+        "Eggs",
+        "Fruit",
+        "Meat"
+      ],
+      "estimated_reliability": 75,
+      "id": "562a2759-8eb3-4f6b-b320-e61bb8c689d8"
+    },
+    {
+      "name": "Lucas Bros Farmshop",
+      "parish": "St Brelade",
+      "description": "Lucas Bros Farmshop is a vendor located in the parish of St Brelade, Jersey. They do not offer organic produce. Information about cashless payment options is unavailable.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Baked Goods",
+        "Fruit",
+        "Eggs"
+      ],
+      "estimated_reliability": 70,
+      "id": "c5da55ec-0c62-4172-856c-f400068eeec4"
+    },
+    {
+      "name": "Woodside Farmshop",
+      "parish": "Trinity",
+      "description": "Woodside Farmshop is a farm shop located in the parish of Trinity. It does not sell organic produce and accepts cash payments. The shop sells wood products.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": true,
+      "produce_types": [
+        "Wood"
+      ],
+      "estimated_reliability": 90,
+      "id": "fa6bad83-4736-48e2-b4b5-b13254e81b33"
+    },
+    {
+      "name": "Rondels Farmshop",
+      "parish": "Trinity",
+      "description": "Rondels Farmshop is a vendor located in the parish of Trinity, Jersey. It is not an organic farm shop and does accept cashless payments. The types of produce sold are currently unknown.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": true,
+      "produce_types": [],
+      "estimated_reliability": 70,
+      "id": "1d743a1d-4f1d-4b24-a2fe-a3e0ca26a052"
+    },
+    {
+      "name": "The Organic Shop",
+      "parish": "St Saviour",
+      "description": "The Organic Shop is a vendor located in the parish of St Saviour, Jersey. They sell organic produce and accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": true,
+      "cashless_payment": true,
+      "produce_types": [
+        "Vegetables",
+        "Baked Goods",
+        "Fruit",
+        "Eggs"
+      ],
+      "estimated_reliability": 80,
+      "id": "fd743b02-0521-474f-8438-97c67aec13c5"
+    },
+    {
+      "name": "Manor Farm",
+      "parish": "St Ouen",
+      "description": "Manor Farm is a produce vendor located in the parish of St Ouen, Jersey. They sell vegetables but do not have organic certification or a farm shop. It is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables"
+      ],
+      "estimated_reliability": 85,
+      "id": "8d84f995-3311-4530-8fcf-df426c97236c"
+    },
+    {
+      "name": "Rue des Geonnais",
+      "parish": "St Ouen",
+      "description": "Rue des Geonnais is a vendor located in the parish of St Ouen. They sell eggs and do not offer organic produce or operate as a farm shop. It is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Eggs"
+      ],
+      "estimated_reliability": 85,
+      "id": "09310fef-e485-420b-9825-67de507d8f46"
+    },
+    {
+      "name": "Route du Port",
+      "parish": "St Peter",
+      "description": "Route du Port is a vendor located in the parish of St Peter, Jersey. They sell a variety of locally grown produce including vegetables, Jersey Royal potatoes, and fruit. The produce is not certified organic.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Fruit",
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 85,
+      "id": "4acf568a-e951-4c19-a804-5e8e3f2aec6c"
+    },
+    {
+      "name": "Le Braye",
+      "parish": "St Brelade",
+      "description": "Le Braye is a vendor located in the parish of St Brelade, Jersey. They sell vegetables, including the famous Jersey Royal potatoes, but do not offer organic produce. Information about cashless payment options is currently unavailable.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 85,
+      "id": "35f52d9f-0df0-4541-b60a-01561607030c"
+    },
+    {
+      "name": "Rock View",
+      "parish": "St Ouen",
+      "description": "Rock View is a vendor located in the parish of St Ouen, Jersey. They sell vegetables, including the famous Jersey Royal potatoes. Rock View does not offer organic produce or operate as a farm shop.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 85,
+      "id": "1ac44f0e-652e-4131-b961-1382ad22d0d0"
+    },
+    {
+      "name": "Ruette des Mannaies",
+      "parish": "St Ouen",
+      "description": "Ruette des Mannaies is a vendor located in the parish of St Ouen, Jersey. They sell Jersey Royal potatoes and a variety of vegetables. They do not offer organic produce or cashless payment options.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 90,
+      "id": "c463aa83-ae58-4bb4-b407-fa78ae7c0d15"
+    },
+    {
+      "name": "La Route de Saint-Jean",
+      "parish": "St John",
+      "description": "La Route de Saint-Jean is a vendor located in the parish of St John, Jersey. They sell plants but do not offer organic produce or operate as a farm shop. It is unclear if they accept cashless payments.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": null,
+      "produce_types": [
+        "Plants"
+      ],
+      "estimated_reliability": 85,
+      "id": "9888e122-6c5f-4cbf-9a30-4795a3a3c68b"
+    },
+    {
+      "name": "La Rue des Landes",
+      "parish": "St John",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "La Rue des LandesParish: St JohnOrganic: NoCashless payment: NoProduce SoldVegetablesFlowersWoodLast updated: 16th May 2020",
+      "produce_types": [
+        "Vegetables",
+        "Wood",
+        "Flowers"
+      ],
+      "confidence": "High",
+      "id": "a299ed9a-1219-46fd-a9c8-ed400449c1ff"
+    },
+    {
+      "name": "Jersey Royals",
+      "parish": "St Ouen",
+      "description": "Jersey Royals is a vendor located in the parish of St Ouen that specializes in selling Jersey Royal potatoes and other vegetables. They do not offer organic produce or cashless payment options.",
+      "latitude": null,
+      "longitude": null,
+      "organic": false,
+      "cashless_payment": false,
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "estimated_reliability": 85,
+      "id": "337704c7-a0a7-4e5e-b57e-e9c47bbae8dd"
+    },
+    {
+      "name": "Homefield Farmshop",
+      "parish": "St Clement",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Homefield FarmshopParish: St ClementOrganic: NoCashless payment: YesProduce SoldHoneyLast updated: 29th May 2020",
+      "produce_types": [
+        "Honey"
+      ],
+      "confidence": "High",
+      "id": "82c9a36d-4b4d-4689-b146-8fa07a15028b"
+    },
+    {
+      "name": "Rue de Fliquet",
+      "parish": "St Martin",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Rue de FliquetParish: St MartinOrganic: NoCashless payment: NoProduce SoldRoyalsPlantsVegetablesLast updated: 16th May 2020",
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Plants"
+      ],
+      "confidence": "High",
+      "id": "74965c17-333f-48bf-8366-0ce29c3019ee"
+    },
+    {
+      "name": "Farmer Richard",
+      "parish": "St Helier",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Farmer RichardParish: St HelierOrganic: NoCashless payment: NoProduce SoldVegetablesLast updated: 22nd May 2021",
+      "produce_types": [
+        "Vegetables"
+      ],
+      "confidence": "High",
+      "id": "37489dc8-3407-4025-824e-33eaacf265cc"
+    },
+    {
+      "name": "Me and the Farmer by John Hackett",
+      "parish": "St Brelade",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Me and the Farmer by John HackettParish: St BreladeOrganic: NoCashless payment: YesProduce SoldRoyalsMeatBaked GoodsLast updated: 22nd May 2021",
+      "produce_types": [
+        "Baked Goods",
+        "Jersey Royals",
+        "Meat"
+      ],
+      "confidence": "High",
+      "id": "c23c6694-d7a3-402f-ab9f-fa8639743f76"
+    },
+    {
+      "name": "Ferndale Farm",
+      "parish": "St Peter",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Ferndale FarmParish: St. PeterOrganic: NoCashless payment: NoProduce SoldRoyalsVegetablesLast updated: 16th May 2020",
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "91f0796e-f5d9-44da-b226-25f43e939983"
+    },
+    {
+      "name": "Labey Farm",
+      "parish": "St Ouen",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Labey FarmParish: St. OuenOrganic: NoCashless payment: NoProduce SoldRoyalsVegetablesLast updated: 16th May 2020",
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "4e65ec8b-c80d-42ce-8c07-fdbb4bd56267"
+    },
+    {
+      "name": "Route des Millais",
+      "parish": "St Ouen",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Route des MillaisParish: St. OuenOrganic: NoCashless payment: NoProduce SoldRoyalsVegetablesLast updated: 22nd May 2021",
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "e700c46f-3483-4b4b-a8a0-c98e576e88a2"
+    },
+    {
+      "name": "Vallee des vaux",
+      "parish": "St Helier",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Vallee des vauxParish: St HelierOrganic: YesCashless payment: NoProduce SoldVegetablesPlantsLast updated: 16th May 2020",
+      "produce_types": [
+        "Vegetables",
+        "Plants"
+      ],
+      "confidence": "High",
+      "id": "cf57a3e1-74b3-408a-9a35-1354aa2201c7"
+    },
+    {
+      "name": "The Jersey Potato Shack",
+      "parish": "St Helier",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "The Jersey Potato ShackParish: St HelierOrganic: NoCashless payment: YesProduce SoldRoyalsVegetablesFruitLast updated: 18th May 2020",
+      "produce_types": [
+        "Fruit",
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "d4a1e961-af12-4fa9-87ac-229d8d72e30f"
+    },
+    {
+      "name": "Petit Menage Farm",
+      "parish": "St Saviour",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Petit Menage FarmParish: St SaviourOrganic: NoCashless payment: NoProduce SoldVegetablesEggsWoodLast updated: 16th May 2020",
+      "produce_types": [
+        "Vegetables",
+        "Eggs",
+        "Wood"
+      ],
+      "confidence": "High",
+      "id": "8d9ac9fe-632d-4dc6-ab6d-6840201c0780"
+    },
+    {
+      "name": "Cluckingham Palace",
+      "parish": "St Saviour",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Cluckingham PalaceParish: St SaviourOrganic: NoCashless payment: YesProduce SoldEggsLast updated: 18th May 2020",
+      "produce_types": [
+        "Eggs"
+      ],
+      "confidence": "High",
+      "id": "bda532f4-6094-4488-b43c-c47999f0bd1b"
+    },
+    {
+      "name": "Meleches Farm",
+      "parish": "St Helier",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Meleches FarmParish: St HelierOrganic: NoCashless payment: NoProduce SoldRoyalsVegetablesLast updated: 16th May 2020",
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "6644b116-8e74-44d9-9a92-995a5044e167"
+    },
+    {
+      "name": "Jersey Wonders by Babs",
+      "parish": "Grouville",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Jersey Wonders by BabsParish: GrouvilleOrganic: NoCashless payment: YesProduce SoldBaked GoodsLast updated: 18th May 2020",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "confidence": "High",
+      "id": "52e3a650-a3e4-40f5-a7b3-a870834621ac"
+    },
+    {
+      "name": "Rue des Cateaux",
+      "parish": "Trinity",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Rue des CateauxParish: TrinityOrganic: YesCashless payment: YesProduce SoldVegetablesFruitEggsLast updated: 2nd Jun 2020",
+      "produce_types": [
+        "Vegetables",
+        "Eggs",
+        "Fruit"
+      ],
+      "confidence": "High",
+      "id": "2e2cd4bb-25e7-46a4-a7a6-a0ea634191a6"
+    },
+    {
+      "name": "La route des hetres",
+      "parish": "St Peter",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "La route des hetresParish: St. PeterOrganic: NoCashless payment: YesRevolut and cash accepted, a wide range of veg and fruit.Produce SoldVegetablesFruitRoyalsLast updated: 3rd Jun 2020",
+      "produce_types": [
+        "Fruit",
+        "Vegetables",
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "9ac198f6-6f00-486c-8500-8b0f77e871d7"
+    },
+    {
+      "name": "Master Farms Grouville",
+      "parish": "Grouville",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Master Farms GrouvilleParish: GrouvilleOrganic: YesCashless payment: YesProduce SoldRoyalsVegetablesFlowersLast updated: 24th Feb 2021",
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Flowers"
+      ],
+      "confidence": "High",
+      "id": "8eab8f4c-5121-41a5-8e74-2501a937df83"
+    },
+    {
+      "name": "Master Farms Trinity",
+      "parish": "Trinity",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Master Farms TrinityParish: TrinityOrganic: YesCashless payment: YesProduce SoldRoyalsVegetablesFlowersLast updated: 24th Feb 2021",
+      "produce_types": [
+        "Vegetables",
+        "Jersey Royals",
+        "Flowers"
+      ],
+      "confidence": "High",
+      "id": "7fccef7a-80e1-4e21-b9f1-f3237daea23b"
+    },
+    {
+      "name": "La Tacheron 'Bake Box'",
+      "parish": "Trinity",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "La Tacheron 'Bake Box'Parish: TrinityOrganic: YesCashless payment: YesJersey\u00a0sustainable flour.Produce SoldBaked GoodsLast updated: 4th Jun 2020",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "confidence": "High",
+      "id": "4c5ce3b6-1f51-4c50-96f7-765bdb62608c"
+    },
+    {
+      "name": "Bessie's biscuits & cupcakes",
+      "parish": "St Martin",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Bessie's biscuits & cupcakesParish: St MartinOrganic: NoCashless payment: YesCup cakes, biscuits, sweets.They take cash, paypal or revolt\u00a0Produce SoldBaked GoodsLast updated: 8th Jun 2020",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "confidence": "High",
+      "id": "10b7188c-18e6-4d43-8656-68c249c2f80f"
+    },
+    {
+      "name": "Chemin des Monts Plants",
+      "parish": "St Ouen",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Chemin des Monts PlantsParish: St. OuenOrganic: NoCashless payment: NoOccasional bedding plants and tomatoes, in stock now.Produce SoldPlantsLast updated: 22nd May 2021",
+      "produce_types": [
+        "Plants"
+      ],
+      "confidence": "High",
+      "id": "a9c9b766-72be-489e-af64-5c471c1500da"
+    },
+    {
+      "name": "The Cake Box",
+      "parish": "St Martin",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "The Cake BoxParish: St MartinOrganic: NoCashless payment: YesProduce SoldBaked GoodsLast updated: 10th Jun 2020",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "confidence": "High",
+      "id": "beb76b77-e402-45db-bb41-4256cf348220"
+    },
+    {
+      "name": "Daisy\u2019s Country Bakes",
+      "parish": "St Lawrence",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Daisy\u2019s Country BakesParish: St LawrenceOrganic: NoCashless payment: YesDaisy\u2019s Country Bakes welcomes you to a recently opened Honesty Hut filled with delicious home bakes and treats for your enjoyment! Just 250 yards south from Joe Friere\u2019s roadside stall, it makes for a combined outing filled with local delights! Produce SoldBaked GoodsPlantsFlowersLast updated: 10th Jun 2020",
+      "produce_types": [
+        "Plants",
+        "Baked Goods",
+        "Flowers"
+      ],
+      "confidence": "High",
+      "id": "066cc27a-8eef-4536-965d-496948f3f69a"
+    },
+    {
+      "name": "The Wonder Stall",
+      "parish": "St Martin",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "The Wonder StallParish: St MartinOrganic: NoCashless payment: YesTraditional and flavored Jersey Wonders for sale.Produce SoldBaked GoodsLast updated: 11th Aug 2020",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "confidence": "High",
+      "id": "7b00964b-3ec4-4422-afff-6537990a3446"
+    },
+    {
+      "name": "Westies Dairy Free Cakes",
+      "parish": "St Peter",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Westies Dairy Free CakesParish: St. PeterOrganic: NoCashless payment: YesWheat free, Dairy free, Gluten free, Vegan cakes!Produce SoldBaked GoodsLast updated: 18th May 2021",
+      "produce_types": [
+        "Vegetables",
+        "Baked Goods",
+        "Milk"
+      ],
+      "confidence": "High",
+      "id": "b04a6161-7792-4c00-83da-fc6e6d31a619"
+    },
+    {
+      "name": "The Ranch Honesty Box",
+      "parish": "St Peter",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "The Ranch Honesty Box Parish: St. PeterOrganic: NoCashless payment: NoThe new cafe - The Ranch.Has its own Fresh veg stall.Produce SoldVegetablesFruitLast updated: 22nd May 2021",
+      "produce_types": [
+        "Vegetables",
+        "Fruit"
+      ],
+      "confidence": "High",
+      "id": "30bace09-42f4-4238-8502-f7523721ac78"
+    },
+    {
+      "name": "The Easter Eggers of Oakvale",
+      "parish": "St Saviour",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "The Easter Eggers of OakvaleParish: St SaviourOrganic: NoCashless payment: Yesfree range eggs for salePale blue, olive green, pure white and dark brown\u00a0Produce SoldEggsLast updated: 9th Nov 2020",
+      "produce_types": [
+        "Eggs"
+      ],
+      "confidence": "High",
+      "id": "cf49a3f2-469e-4d7f-8669-f06ef9d8b249"
+    },
+    {
+      "name": "Little Bird Bakes",
+      "parish": "St Martin",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Little Bird BakesParish: St MartinOrganic: NoCashless payment: YesHome baked cakes,at the weekendProduce SoldBaked GoodsLast updated: 21st May 2021",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "confidence": "High",
+      "id": "d3721792-29ee-4911-aebb-6c8f239621f1"
+    },
+    {
+      "name": "Crabs Direct",
+      "parish": "St Clement",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Crabs DirectParish: St ClementOrganic: YesCashless payment: YesWe sell freshly cooked shell fish, sea food platters and freshly picked crab meatOpening TimesSaturdays from 08:00 to 12:00 (noon)Produce SoldShellfishLast updated: 22nd May 2021",
+      "produce_types": [
+        "Meat",
+        "Shellfish",
+        "Fish"
+      ],
+      "confidence": "High",
+      "id": "c4803099-853c-4e12-a49a-79db24b423d2"
+    },
+    {
+      "name": "Jade-S Fisheries - St. Aubins",
+      "parish": "St Brelade",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Jade-S Fisheries - St. AubinsParish: St BreladeOrganic: YesCashless payment: YesFresh local seafood in\u00a0St Aubin by St. Brelade Parish Hall.Opening TimesSaturday 08:45 am onwards whilst stocks lastProduce SoldFishShellfishLast updated: 22nd May 2021",
+      "produce_types": [
+        "Shellfish",
+        "Fish"
+      ],
+      "confidence": "High",
+      "id": "a1169378-ffca-4a9e-8311-a6a569cc1f6e"
+    },
+    {
+      "name": "Jade-S Fisheries - Long Beach",
+      "parish": "Grouville",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Jade-S Fisheries - Long BeachParish: GrouvilleOrganic: YesCashless payment: YesFresh local seafood at Long Beach, Grouville.Opening TimesFriday 16:00 onwards whilst stocks lastProduce SoldFishShellfishLast updated: 22nd May 2021",
+      "produce_types": [
+        "Shellfish",
+        "Fish"
+      ],
+      "confidence": "High",
+      "id": "f9251fe5-5769-428f-a248-7bf8d44fab7f"
+    },
+    {
+      "name": "Jade-S Fisheries - St Ouen Community Centre",
+      "parish": "St Ouen",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Jade-S Fisheries - St Ouen Community CentreParish: St. OuenOrganic: YesCashless payment: YesFresh local seafood at St. Ouen Community Centre.Opening TimesSunday 09:00 onwards whilst stocks lastProduce SoldFishShellfishLast updated: 22nd May 2021",
+      "produce_types": [
+        "Shellfish",
+        "Fish"
+      ],
+      "confidence": "High",
+      "id": "21e89c59-52d6-4f44-94ed-8c3d8acf30b8"
+    },
+    {
+      "name": "G and H Agriculture",
+      "parish": "St Peter",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "G and H AgricultureParish: St. PeterOrganic: NoCashless payment: YesWe grow Jersey Royals from our Cotil along with a selection of vegetables from our fields in the wilds of St Peter close to Val De La Mare. Along with the vegetables G&H have a growing flock of egg laying hens, producing sustainable high quality and most importantly delicious eggs.Opening TimesDaily 10:30am till dark! Produce SoldVegetablesEggsRoyalsLast updated: 24th May 2021",
+      "produce_types": [
+        "Vegetables",
+        "Eggs",
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "d5759253-ba69-4c3a-bd8a-c059d2f459f5"
+    },
+    {
+      "name": "The Succulents' Lady",
+      "parish": "St Clement",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "The Succulents' LadyParish: St ClementOrganic: NoCashless payment: YesProviding succulents of different varieties in specially chosen containers, making features of both elements. Plus other plants when available. Also includes Macrame hangers etc on occasion.Produce SoldPlantsLast updated: 21st Jun 2021",
+      "produce_types": [
+        "Plants"
+      ],
+      "confidence": "High",
+      "id": "e94caa1e-857d-438b-9b78-11ec250692b0"
+    },
+    {
+      "name": "La crete shellfish",
+      "parish": "St Clement",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "La crete shellfishParish: St ClementOrganic: YesCashless payment: YesLocal hand dived scollopsLocal cooked shellfishvariety of local fishbased at HomefeildsProduce SoldFishShellfishLast updated: 1st Jul 2021",
+      "produce_types": [
+        "Shellfish",
+        "Fish"
+      ],
+      "confidence": "High",
+      "id": "08e05991-6581-4eef-858a-fb4c23cce6c5"
+    },
+    {
+      "name": "Playful Paws Honesty Box",
+      "parish": "St Ouen",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Playful Paws Honesty BoxParish: St. OuenOrganic: YesCashless payment: NoPlayful Paws is a registered business for dog walking. We run an honesty box selling homemade dog treats and ice creams. Open 7 days a week from 10am till dusk.Last updated: 16th May 2022",
+      "produce_types": [],
+      "confidence": "Medium",
+      "id": "71e21679-2955-466b-a59b-cfebc2fd62d6"
+    },
+    {
+      "name": "Plemont Royals",
+      "parish": "St Ouen",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Plemont Royals Parish: St. OuenOrganic: NoCashless payment: NoProduce SoldRoyalsLast updated: 27th May 2022",
+      "produce_types": [
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "b96beb5c-4708-44d1-a4f9-1d34f622a3ac"
+    },
+    {
+      "name": "Sunshine Stall",
+      "parish": "St Peter",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Sunshine Stall Parish: St. PeterOrganic: NoCashless payment: Nooften selling books, and JamsProduce SoldVegetablesLast updated: 1st Jun 2022",
+      "produce_types": [
+        "Vegetables"
+      ],
+      "confidence": "High",
+      "id": "060c9903-beb3-4204-bab9-b006da1ce5a7"
+    },
+    {
+      "name": "Hamptonne Farm",
+      "parish": "St Lawrence",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Hamptonne Farm Parish: St LawrenceOrganic: NoCashless payment: NoJersey Heritage Farm, thats selling local products in there honesty stall and local shop.Produce SoldEggsLast updated: 27th May 2022",
+      "produce_types": [
+        "Eggs"
+      ],
+      "confidence": "High",
+      "id": "95be8fe3-8586-4ac6-8f6f-ce127c787dac"
+    },
+    {
+      "name": "The Salvation Army Honesty Box",
+      "parish": "St Martin",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "The Salvation Army Honesty BoxParish: St MartinOrganic: NoCashless payment: NoProduce SoldRoyalsLast updated: 1st Jun 2022",
+      "produce_types": [
+        "Jersey Royals"
+      ],
+      "confidence": "High",
+      "id": "3bd6073f-6695-45a2-bfca-de04822d2c15"
+    },
+    {
+      "name": "Bramble",
+      "parish": "St Mary",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "BrambleParish: St MaryOrganic: NoCashless payment: YesPlant stand located 2 minutes east of Co-op en Route St Mary on Rue de la FrontiereProduce SoldFlowersVegetablesPlantsLast updated: 13th Jun 2022",
+      "produce_types": [
+        "Vegetables",
+        "Plants",
+        "Flowers"
+      ],
+      "confidence": "High",
+      "id": "0a3e8c2b-fbf5-492e-b4c9-adcbad8411fc"
+    },
+    {
+      "name": "Acorn Honesty Box",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Unknown",
+      "is_farm_shop": "No",
+      "description": "Acorn Honesty Box Parish: UnknownOrganic: NoCashless payment: No\u201cThe\u00a0Acorn Training & Development Service\u00a0offers individuals who have a disability or long-term health condition the chance to engage in a variety of training projects\u201d\u00a0\u00a0Produce SoldJersey RoyalsLast updated: 15th Jun 2023",
+      "produce_types": [
+        "Jersey Royals"
+      ],
+      "confidence": "Medium",
+      "id": "1cbf7617-d7e6-417f-9911-457167c92324"
+    }
+  ],
+  "parishes": [
+    "Grouville",
+    "St Brelade",
+    "St Clement",
+    "St Helier",
+    "St John",
+    "St Lawrence",
+    "St Martin",
+    "St Mary",
+    "St Ouen",
+    "St Peter",
+    "St Saviour",
+    "Trinity"
+  ],
+  "produce_types": [
+    "Baked Goods",
+    "Eggs",
+    "Fish",
+    "Flowers",
+    "Fruit",
+    "Honey",
+    "Jersey Royals",
+    "Meat",
+    "Milk",
+    "Plants",
+    "Shellfish",
+    "Vegetables",
+    "Wood"
+  ],
+  "_metadata": {
+    "consolidated_at": "2025-04-12T10:05:16.473098",
+    "vendor_count": 91,
+    "parish_count": 12,
+    "produce_type_count": 13,
+    "consolidated_by": "ai_enhance_and_upload.py",
+    "ai_model": "OpenRouter - claude-3-sonnet"
+  }
+}

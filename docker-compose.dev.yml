@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  vite:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - .:/app
+      - /app/node_modules # Use container's node_modules
+      - /app/dist # Use container's dist directory
+    ports:
+      - "5173:5173" # Vite dev server
+      - "24678:24678" # Vite HMR
+    environment:
+      - NODE_ENV=development
+      - VITE_HOST=0.0.0.0
+      - VITE_PORT=5173
+      - NEXT_PUBLIC_SUPABASE_URL=${NEXT_PUBLIC_SUPABASE_URL}
+      - NEXT_PUBLIC_SUPABASE_ANON_KEY=${NEXT_PUBLIC_SUPABASE_ANON_KEY}
+    network_mode: "host" # Use host networking to work with Tailscale
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:5173 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 2G
+        reservations:
+          cpus: '0.25'
+          memory: 512M
+    labels:
+      - "com.localsource.description=Vite Development Server"
+      - "com.localsource.service=frontend"
+      - "com.localsource.environment=development" 

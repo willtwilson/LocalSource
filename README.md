@@ -21,11 +21,14 @@ A mobile-first Progressive Web App (PWA) to map local produce vendors in Jersey,
 - Supabase for backend (Auth, Database, Storage)
 - PostGIS for geospatial features
 - Tailwind CSS for styling
+- Docker for containerization
 
 ## Prerequisites
 
-- Node.js 16 or later
+- Node.js 20 or later
+- Docker and Docker Compose
 - Supabase account and project
+- Tailscale (for development)
 
 ## Getting Started
 

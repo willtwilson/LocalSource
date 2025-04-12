@@ -1,0 +1,104 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  password  String // Hashed password
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  submittedVendors SubmittedVendor[]
+  favouriteVendors Favourite[]
+  lowStockReports  LowStockReport[]
+  ownedVendor      Vendor? // If a user directly owns/manages a vendor
+}
+
+model Vendor {
+  id             Int                                   @id @default(autoincrement())
+  name           String
+  description    String?
+  location       Unsupported("geometry(Point, 4326)")? // PostGIS - Use SRID 4326 for lat/lng
+  hours          Json? // JSONB for flexible hours structure
+  isVerified     Boolean                               @default(false)
+  photos         Json? // JSONB array of photo URLs
+  paymentMethods Json? // JSONB array of accepted payment methods
+  createdAt      DateTime                              @default(now())
+  updatedAt      DateTime                              @updatedAt
+
+  // Relations
+  ownerId         Int?                 @unique // Foreign key to User who owns/manages this listing
+  owner           User?                @relation(fields: [ownerId], references: [id])
+  vendorTypes     VendorTypeRelation[]
+  favourites      Favourite[]
+  lowStockReports LowStockReport[]
+}
+
+model VendorType {
+  id   Int    @id @default(autoincrement())
+  name String @unique // e.g., "Farm Produce", "Bakery", "Crafts"
+
+  // Relations
+  vendors VendorTypeRelation[]
+}
+
+// Explicit many-to-many relation table for Vendors and VendorTypes
+model VendorTypeRelation {
+  vendorId Int
+  typeId   Int
+  vendor   Vendor     @relation(fields: [vendorId], references: [id])
+  type     VendorType @relation(fields: [typeId], references: [id])
+
+  @@id([vendorId, typeId])
+}
+
+// --- Models for User Contributions (Simplified for now) ---
+
+model Favourite {
+  userId   Int
+  vendorId Int
+  user     User   @relation(fields: [userId], references: [id])
+  vendor   Vendor @relation(fields: [vendorId], references: [id])
+
+  @@id([userId, vendorId])
+}
+
+model LowStockReport {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  vendorId  Int
+  comment   String?
+  photoUrl  String? // URL to optional photo proof
+  createdAt DateTime @default(now())
+
+  user   User   @relation(fields: [userId], references: [id])
+  vendor Vendor @relation(fields: [vendorId], references: [id])
+}
+
+model SubmittedVendor {
+  id          Int                                   @id @default(autoincrement())
+  submitterId Int
+  name        String
+  type        String // Or link to VendorType?
+  location    Unsupported("geometry(Point, 4326)")? // PostGIS
+  description String?
+  photoUrl    String?
+  createdAt   DateTime                              @default(now())
+
+  submitter User @relation(fields: [submitterId], references: [id])
+}

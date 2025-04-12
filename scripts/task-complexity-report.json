@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "generatedAt": "2025-04-11T16:19:01.802Z",
+    "tasksAnalyzed": 10,
+    "thresholdScore": 5,
+    "projectName": "Your Project Name",
+    "usedResearch": true
+  },
+  "complexityAnalysis": [
+    {
+      "taskId": 1,
+      "taskTitle": "Set up User Contribution Form",
+      "complexityScore": 7,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Break down the task into subtasks for designing the form UI, implementing controlled components with validation logic, setting up database schema, and ensuring responsiveness and accessibility.",
+      "reasoning": "The task involves multiple components: React form creation, validation logic, accessibility, and database integration, making it moderately complex to implement."
+    },
+    {
+      "taskId": 2,
+      "taskTitle": "Implement Map-based Location Selection",
+      "complexityScore": 8,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Divide the task into subtasks for integrating the map API, implementing draggable markers, adding reverse geocoding, ensuring mobile responsiveness, and handling data storage for coordinates.",
+      "reasoning": "The integration of APIs and implementing interactive functionality like draggable markers and reverse geocoding adds significant technical complexity."
+    },
+    {
+      "taskId": 3,
+      "taskTitle": "Add Photo Upload Capability",
+      "complexityScore": 6,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Break down into subtasks for creating the upload component, implementing client-side compression and validation, setting up secure storage, and adding UI features like previews and progress indicators.",
+      "reasoning": "The task involves standard photo upload features, but secure storage and validation introduce moderate complexity."
+    },
+    {
+      "taskId": 4,
+      "taskTitle": "Implement Low Stock Reporting",
+      "complexityScore": 5,
+      "recommendedSubtasks": 3,
+      "expansionPrompt": "Divide the task into subtasks for designing the reporting interface, creating the database schema for stock reports, and implementing spam prevention mechanisms.",
+      "reasoning": "The task primarily involves creating a simple interface and database schema with some added considerations for spam prevention."
+    },
+    {
+      "taskId": 5,
+      "taskTitle": "Configure Service Worker for PWA",
+      "complexityScore": 8,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break this task into subtasks for setting up the service worker, configuring caching strategies, implementing fallback pages, and testing lifecycle events.",
+      "reasoning": "Service workers require precise configuration and testing, especially for caching strategies, which makes this task complex."
+    },
+    {
+      "taskId": 6,
+      "taskTitle": "Implement Offline Data Access and Sync",
+      "complexityScore": 9,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Divide the task into subtasks for setting up offline data storage, implementing sync mechanisms, creating queue systems for submissions, and adding UI indicators.",
+      "reasoning": "This task involves advanced offline features, including synchronization and queue handling, which require careful implementation and testing."
+    },
+    {
+      "taskId": 7,
+      "taskTitle": "Enhance Geolocation Features",
+      "complexityScore": 7,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Break the task into subtasks for implementing fallback methods, real-time tracking, proximity calculations, and error handling.",
+      "reasoning": "The need for real-time tracking and fallback geolocation methods introduces moderate to high complexity."
+    },
+    {
+      "taskId": 8,
+      "taskTitle": "Implement Map Improvements",
+      "complexityScore": 8,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Divide the task into subtasks for implementing custom map styling, clustering, search functionality, and performance optimization.",
+      "reasoning": "This task requires advanced map features like clustering and performance optimization, which increase its complexity."
+    },
+    {
+      "taskId": 9,
+      "taskTitle": "Create Admin Dashboard UI",
+      "complexityScore": 8,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the task into subtasks for designing the layout, creating the review queue, implementing CRUD operations, and ensuring responsive design.",
+      "reasoning": "The task involves complex UI design with multiple workflows and responsive design considerations, making it a high-complexity task."
+    },
+    {
+      "taskId": 10,
+      "taskTitle": "Implement Admin Authentication and RLS Policies",
+      "complexityScore": 9,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Divide the task into subtasks for configuring authentication, implementing role-based access control, creating RLS policies, and setting up session management with two-factor authentication.",
+      "reasoning": "This task requires advanced security features and integration with authentication mechanisms, making it highly complex."
+    }
+  ]
+}

@@ -1,0 +1,901 @@
+{
+  "vendors": [
+    {
+      "name": "Master Farms St Brelade",
+      "parish": "St Brelade",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Route du Francfief",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "La Rue des Landes Eggs",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [
+        "Eggs"
+      ],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Warren Farm Noirmont",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Rue de la Preterie",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "9 Le Mont de Ste Marie",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "La Dimerie",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Rue du Petit l'Aleval",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "La Rue \u00e0 Georges",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Le Mont de la Barcelone",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Rue du Cerf",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "La Rue de Bel Air",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Cooks Farm Shop",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Farm Fields",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "La Fraide Rue",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Pottage Farm",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Farm Fresh Organic",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Scoop Organic Farm Shop",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "B&G Growers",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "The Strawberry Farm",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Le Marinel Farm",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "La Rue des Servais",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Le Chasse",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "La Croiserie",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Rue du Pont",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Fungi Delicti",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Grande Route de Rozel",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Anne Port",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Anneville Organic Farm Stall",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Route de la Hougue Bie",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Jersey Oyster",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "1828 Rue des Nouettes",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "55 Clos du Corvez",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Boulivot de Haut",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Route de la Hougue Bie",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Rue Saint-Julien",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Rue des Buttes",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Holme Grown Farmshop",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Lucas Bros Farmshop",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Woodside Farmshop",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Rondels Farmshop",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "The Organic Shop",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Manor Farm",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Rue des Geonnais",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Route du Port",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Le Braye",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Rock View",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Ruette des Mannaies",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "La Route de Saint-Jean",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "La Rue des Landes",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Jersey Royals",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [
+        "Royals"
+      ],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Homefield Farmshop",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "La Rue des Landes",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Rue de Fliquet",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Farmer Richard",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Me and the Farmer by John Hackett",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Ferndale Farm",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Labey Farm",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Route des Millais",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Vallee des vaux",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "The Jersey Potato Shack",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Petit Menage Farm",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Cluckingham Palace",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Meleches Farm",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Jersey Wonders by Babs",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Rue des Cateaux",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "La route des hetres",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Master Farms Grouville",
+      "parish": "Grouville",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Master Farms Trinity",
+      "parish": "Trinity",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "La Tacheron 'Bake Box'",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Bessie's biscuits & cupcakes",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [
+        "Cakes",
+        "Baked Goods"
+      ],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Chemin des Monts Plants",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [
+        "Plants"
+      ],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "The Cake Box",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Daisy\u2019s Country Bakes",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "The Wonder Stall",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Westies Dairy Free Cakes",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [
+        "Dairy",
+        "Cakes",
+        "Baked Goods"
+      ],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "The Ranch Honesty Box",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "The Easter Eggers of Oakvale",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [
+        "Eggs"
+      ],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Little Bird Bakes",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [
+        "Baked Goods"
+      ],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Crabs Direct",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Jade-S Fisheries - St. Aubins",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Jade-S Fisheries - Long Beach",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Jade-S Fisheries - St Ouen Community Centre",
+      "parish": "St Ouen",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "G and H Agriculture",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "The Succulents' Lady",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "La crete shellfish",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Playful Paws Honesty Box",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Plemont Royals",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [
+        "Royals"
+      ],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Sunshine Stall",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Hamptonne Farm",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "The Salvation Army Honesty Box",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Bramble",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    },
+    {
+      "name": "Acorn Honesty Box",
+      "parish": "Unknown",
+      "organic": "No",
+      "cashless_payment": "Yes",
+      "description": "",
+      "produce_types": [],
+      "last_updated": "Unknown"
+    }
+  ],
+  "produce_types": [
+    "Meat",
+    "Seafood",
+    "Vegetables",
+    "Honey",
+    "Jams",
+    "Baked Goods",
+    "Royals",
+    "Cakes",
+    "Plants",
+    "Fruit",
+    "Dairy",
+    "Eggs",
+    "Flowers"
+  ],
+  "parishes": [
+    "St Helier",
+    "St Ouen",
+    "St Martin",
+    "St Brelade",
+    "St Saviour",
+    "St Lawrence",
+    "St Clement",
+    "Trinity",
+    "St John",
+    "St Peter",
+    "Grouville",
+    "St Mary"
+  ],
+  "_metadata": {
+    "scraped_at": "2025-04-12T09:32:12.021070",
+    "vendor_count": 93,
+    "produce_type_count": 13,
+    "parish_count": 12
+  }
+}

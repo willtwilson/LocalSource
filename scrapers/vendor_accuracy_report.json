@@ -1,0 +1,65 @@
+{
+  "generated_at": "2025-04-12T11:24:07Z",
+  "files": {
+    "Original Data": {
+      "path": "scrapers/geocoded_data.json",
+      "stats": {
+        "total_vendors": 91,
+        "high_accuracy_count": 0,
+        "high_accuracy_percentage": 0.0,
+        "medium_accuracy_count": 0,
+        "medium_accuracy_percentage": 0.0,
+        "low_accuracy_count": 91,
+        "low_accuracy_percentage": 100.0,
+        "improved_accuracy_percentage": 0.0,
+        "has_unknown_parish": 0,
+        "has_unknown_coordinates": 0
+      }
+    },
+    "Parish-Based Improvement": {
+      "path": "scrapers/improved_geocoded_data.json",
+      "stats": {
+        "total_vendors": 91,
+        "high_accuracy_count": 8,
+        "high_accuracy_percentage": 8.791208791208792,
+        "medium_accuracy_count": 82,
+        "medium_accuracy_percentage": 90.10989010989012,
+        "low_accuracy_count": 0,
+        "low_accuracy_percentage": 0,
+        "improved_accuracy_percentage": 98.9010989010989,
+        "has_unknown_parish": 0,
+        "has_unknown_coordinates": 0
+      }
+    },
+    "Research Enhancement": {
+      "path": "scrapers/researched_locations.json",
+      "stats": {
+        "total_vendors": 91,
+        "high_accuracy_count": 51,
+        "high_accuracy_percentage": 56.043956043956044,
+        "medium_accuracy_count": 39,
+        "medium_accuracy_percentage": 42.857142857142854,
+        "low_accuracy_count": 1,
+        "low_accuracy_percentage": 1.098901098901099,
+        "improved_accuracy_percentage": 98.9010989010989,
+        "has_unknown_parish": 0,
+        "has_unknown_coordinates": 0
+      }
+    },
+    "Final Enhanced Data": {
+      "path": "scrapers/fully_enhanced_data.json",
+      "stats": {
+        "total_vendors": 91,
+        "high_accuracy_count": 51,
+        "high_accuracy_percentage": 56.043956043956044,
+        "medium_accuracy_count": 39,
+        "medium_accuracy_percentage": 42.857142857142854,
+        "low_accuracy_count": 1,
+        "low_accuracy_percentage": 1.098901098901099,
+        "improved_accuracy_percentage": 98.9010989010989,
+        "has_unknown_parish": 0,
+        "has_unknown_coordinates": 0
+      }
+    }
+  }
+}

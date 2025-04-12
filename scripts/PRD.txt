@@ -1,0 +1,174 @@
+# Overview
+
+LocalSource is envisioned as a mobile-first Progressive Web Application (PWA) designed to digitally map and connect the Jersey community with its rich ecosystem of local vendors. It addresses the challenge of discovering hyper-local sellers, particularly the unique "Hedge Veg" honesty stalls, home-based producers, and craftspeople who often lack online visibility.
+
+Currently, finding these vendors relies heavily on chance or word-of-mouth. LocalSource solves this by providing an easy-to-use, map-centric directory. It's primarily for Jersey residents seeking local goods and supporting small businesses, and for the vendors themselves who gain a simple way to establish a digital presence, share information (like hours and location), and potentially reach more customers. The value lies in fostering local commerce, enhancing community connection, and making the discovery of unique local offerings convenient and accessible.
+
+# Core Features (MVP)
+
+Here are the main features planned for the initial launch (MVP):
+
+1.  **Map & List Vendor Discovery**
+    *   **What:** Displays nearby vendors on an interactive map and a synchronized, scrollable list view. Uses device geolocation (with consent) or IP fallback. Refreshes dynamically as the user moves the map.
+    *   **Why:** This is the core function, enabling users to visually discover vendors based on their current location or explored area. It makes finding nearby options intuitive.
+    *   **How:** Frontend uses Supabase client library (`supabase-js`) to fetch vendor data, potentially via a custom database function (`rpc('find_nearby_vendors', {lat, long, radius})`). Uses a mapping library (e.g., Leaflet) to display markers. List view renders the same data. Interaction syncs map and list selections. RLS policies ensure only appropriate data is returned.
+
+2.  **Vendor Details Page ("Mini-Shop")**
+    *   **What:** A dedicated page for each vendor displaying their name, photos, description, precise location, opening hours, type tags, and accepted payment methods (display only for MVP). Includes a 'Get Directions' link and 'Favourite' button.
+    *   **Why:** Provides users with all necessary information to decide whether to visit the vendor and how to get there. Consolidates vendor info in one place.
+    *   **How:** User clicks a vendor on map/list. Frontend routes to a unique vendor URL, fetching detailed vendor data using `supabase.from('vendors').select(...)` filtered by ID. RLS ensures data visibility. Photo URLs point to Supabase Storage.
+
+3.  **Basic Search**
+    *   **What:** Allows users to search for vendors by name, keywords in their description, or type tags.
+    *   **Why:** Enables users to find specific vendors they already know or search for particular types of offerings.
+    *   **How:** User enters terms into a search bar. Frontend uses `supabase.from('vendors').select(...).textSearch(...)` or similar filtering capabilities. Backend database indexes support efficient searching. RLS applies.
+
+4.  **User Accounts & Basic Contributions**
+    *   **What:** Users can register/login via email using Supabase Auth. Logged-in users can favourite/unfavourite vendors (saved to profile), submit new unverified vendor locations (name, map pin, type, optional photo/description), and report overall low stock for a vendor (with optional photo/comment).
+    *   **Why:** Enables personalization (favourites) and leverages community knowledge to grow the vendor database and maintain data relevance (stock reports, new submissions).
+    *   **How:** Frontend uses `supabase.auth.signUp`, `supabase.auth.signInWithPassword`. Favourites link user ID (`auth.uid()`) and vendor ID via INSERT/DELETE on `Favourite` table, protected by RLS. Submissions/Reports use `supabase.from(...).insert(...)`, with RLS ensuring user is authenticated. Photos uploaded to Supabase Storage via `supabase.storage.from(...).upload(...)`.
+
+5.  **Vendor Self-Management**
+    *   **What:** Vendors can self-register with email verification (using Supabase Auth). A secure dashboard allows them to manage their profile information (name, description, location pin, hours, photos, type tags, accepted payment methods). Requires linking the Supabase `auth.users` record to a `Vendor` record.
+    *   **Why:** Empowers vendors to control their listing's accuracy and presentation without needing admin intervention for basic updates. Lowers administrative burden.
+    *   **How:** Vendor registration flow creates a Supabase user. A profile/vendor record linked via `ownerUserId = auth.uid()` is created/updated. Vendor dashboard uses `supabase.from('vendors').update(...)` protected by RLS policy checking `auth.uid() == ownerUserId`. Photo uploads/management use Supabase Storage with appropriate RLS policies.
+
+6.  **Admin Tag & Verification Management**
+    *   **What:** Basic admin interface (could be a separate simple app or protected routes within the main app) to manage the predefined list of `VendorType` tags and to view/verify newly registered or user-submitted vendors (`SubmittedVendor` table, updating `Vendor.isVerified`).
+    *   **Why:** Ensures consistency in categorization and allows for a quality control step to mark vendors as 'Verified', building user trust.
+    *   **How:** Admin interface interacts directly with `VendorType`, `SubmittedVendor`, and `Vendor` tables using Supabase client with appropriate admin privileges (potentially using the `service_role` key securely or defining specific admin RLS policies).
+
+# User Experience
+
+*   **User Personas:**
+    *   **Primary User ("Local Shopper"):** A Jersey resident (e.g., parent, foodie, bargain hunter) who values local produce/goods, convenience, and supporting the community. May have varying levels of tech-savviness. Wants to quickly see what's available nearby *now*.
+    *   **Primary Vendor ("Stall Holder"):** Operates an honesty box, farm gate stall, or small home-based craft/food business. Wants more visibility with minimal effort/cost. Needs simple tools to share location, hours, and offerings. May not be highly tech-savvy.
+*   **Key User Flows (MVP):**
+    *   **Discovery:** Open App -> Grant Location Permission -> View Nearby Vendors on Map/List (fetched via Supabase) -> Pan/Zoom Map -> See Updated Vendors -> Tap Vendor -> View Details (fetched via Supabase). -> Tap "Get Directions".
+    *   **Search:** Open App -> Tap Search Bar -> Enter Query -> View Results (via Supabase search) -> Tap Vendor -> View Details.
+    *   **Favouriting:** View Vendor Details -> Tap Favourite Icon (triggers Supabase insert/delete) -> Later: Access Profile -> View Favourites List (fetched via Supabase). -> Tap Favourite Vendor.
+    *   **Submit New Vendor:** Tap "Submit Vendor" Button -> Fill Form (Name, Type) -> Set Location via Map Interface -> Add Optional Photo (upload to Supabase Storage) -> Submit (triggers Supabase insert to `SubmittedVendor`).
+    *   **Report Low Stock:** View Vendor Details -> Tap "Report Low Stock" -> Add Optional Comment/Photo (upload to Supabase Storage) -> Submit (triggers Supabase insert to `LowStockReport`).
+    *   **Vendor Registration/Login:** Use Supabase Auth UI components or custom forms calling `supabase.auth.signUp`/`signInWithPassword` -> Click Verification Link in Supabase Email -> Complete Basic Profile Setup (triggers Supabase update/insert).
+    *   **Vendor Update:** Login as Vendor (Supabase Auth) -> Go to Dashboard -> Click "Edit Profile" -> Modify Details (e.g., Hours, Photos - triggers Supabase update/storage operations) -> Save Changes.
+*   **UI/UX Considerations:**
+    *   (Largely unchanged from original PRD: Mobile-First, Intuitive Navigation, Map Interaction, Clarity & Feedback, Accessibility, PWA features).
+
+# Technical Architecture (Supabase Backend)
+
+*   **Backend-as-a-Service (BaaS):** Supabase Platform
+    *   **Database:** Supabase Postgres (v15+) with PostGIS extension enabled. Stores all application data. Accessed via Supabase client library and potentially custom database functions/triggers.
+    *   **Authentication:** Supabase Auth. Handles user registration, login (email/password, potentially social providers later), JWT management, email verification, password resets.
+    *   **Storage:** Supabase Storage. Stores user/vendor uploaded photos (e.g., vendor profiles, low stock reports). Accessed via Supabase client library with RLS policies.
+    *   **APIs:** Auto-generated REST and GraphQL APIs (optional usage). Primary interaction via Supabase client library (`supabase-js`) directly from the frontend or Edge Functions. Realtime subscriptions for live updates (optional).
+    *   **Edge Functions:** Supabase Edge Functions (Deno/TypeScript). For server-side logic not suitable for database functions or RLS (e.g., sending custom notifications, complex external API interactions).
+    *   **Security:** Row Level Security (RLS) policies on database tables are paramount for data access control. Storage policies control file access.
+*   **Frontend:** React PWA (built with Vite, TypeScript). Handles UI, user interaction, map display (Leaflet/OSM), PWA features. Interacts directly with Supabase services using `supabase-js`.
+*   **Mapping Service:** Leaflet.js library using OpenStreetMap tiles (or alternatives).
+*   **Geolocation Service:** Browser Geolocation API (primary), potentially IP-based geolocation via an Edge Function if fallback needed.
+*   **Data Models (Summary - for Supabase):**
+    *   `auth.users` (Supabase managed): Stores auth credentials (handled by Supabase). Links via UUID.
+    *   `public.Vendor`: Core entity storing name, description, `location` (PostGIS point), hours (JSONB), `isVerified`, photos (JSONB array of Storage URLs), `paymentMethods` (JSONB array), `ownerUserId` (UUID, FK to `auth.users`).
+    *   `public.VendorType`: Stores predefined type tags (e.g., 'Farm Produce', 'Bakery').
+    *   `public.Vendor_VendorType`: Join table (vendorId, typeId).
+    *   `public.Favourite`: Links `userId` (UUID, FK to `auth.users`) and `vendorId`.
+    *   `public.LowStockReport`: Stores user reports, linked to `Vendor` and `userId` (UUID, FK to `auth.users`).
+    *   `public.SubmittedVendor`: Stores user submissions before verification, linked to `submitterId` (UUID, FK to `auth.users`).
+*   **Infrastructure Requirements:**
+    *   Supabase Project (Free/Pro tier depending on usage).
+    *   Frontend Hosting: Static hosting provider (e.g., Vercel, Netlify, Cloudflare Pages). Docker/Nginx setup is no longer required for frontend serving.
+    *   CI/CD: GitHub Actions workflow for frontend build/deployment, potentially Supabase CLI for schema migrations and Edge Function deployment.
+    *   Development Access: Local development against Supabase project. Tailscale still useful for accessing local frontend if needed.
+    *   Source Control: GitHub repository.
+
+# Development Roadmap (Supabase Backend)
+
+*Note: Focuses on Supabase setup and frontend integration.*
+
+*   **MVP Requirements:**
+    *   **Supabase Setup:** Create Supabase project. Enable PostGIS. Configure Auth (Email provider, templates, URLs). Create Storage buckets.
+    *   **Schema & RLS:** Define tables in Supabase (SQL Editor or CLI migrations). Implement initial RLS policies for basic read/write operations. Create `find_nearby_vendors` database function. Create GIST index on `location`.
+    *   **Frontend Foundation:** Initialize React/Vite frontend (if not reusing existing). Install `supabase-js`. Initialize Supabase client using env variables. Setup basic routing.
+    *   **Core Discovery:** Implement Map view (Leaflet/OSM). Fetch nearby vendors using `supabase.rpc('find_nearby_vendors')`. Implement List view fetching/displaying vendors. Implement basic Search using Supabase filters.
+    *   **Authentication Flow:** Implement frontend registration, login, logout using `supabase.auth`. Handle auth state globally (e.g., React Context).
+    *   **Vendor Information:** Implement Vendor Details page fetching data via `supabase.from('vendors').select()`. Implement Favourite button triggering Supabase insert/delete.
+    *   **User Contributions:** Implement Submit New Vendor form (uploading photo to Storage, inserting data into `SubmittedVendor`). Implement Report Low Stock form (similar flow).
+    *   **Vendor Management (Basic):** Implement flow to link `auth.users` to `Vendor` (`ownerUserId`). Implement Vendor Dashboard forms using `supabase.from('vendors').update()` and Storage uploads, protected by RLS.
+    *   **Admin (Minimal):** Basic interface/scripts using Supabase client (with elevated privileges) to manage `VendorType` and verify vendors (`UPDATE vendors SET isVerified = true`).
+*   **Future Enhancements (Post-MVP):**
+    *   (Largely same as original PRD, but implementation uses Supabase features where applicable - e.g., Stripe integration via Edge Functions, Realtime for stock updates).
+
+# Logical Dependency Chain (Supabase Backend)
+
+1.  **Supabase Project Setup:**
+    *   Create project, note API URL/keys. Add keys to `.env` (ensure `.gitignore` includes `.env`).
+    *   Enable PostGIS extension.
+    *   Configure Auth provider (Email), customize templates. Set redirect URLs.
+    *   Create Storage buckets (e.g., `vendor-photos`, `user-submissions`).
+2.  **Database Schema & Core Logic:**
+    *   Define Tables (`Vendor`, `VendorType`, etc.) using Supabase SQL Editor or CLI migrations.
+    *   Define initial RLS policies (e.g., public read for verified vendors, authenticated write for favourites/submissions).
+    *   Create `find_nearby_vendors` database function.
+    *   Add GIST index on `location`.
+3.  **Frontend Setup & Auth:**
+    *   Initialize/configure React frontend.
+    *   Install and initialize `@supabase/supabase-js`.
+    *   Implement Auth components/pages (Register, Login) using `supabase.auth`.
+    *   Implement global auth state management.
+4.  **Core Discovery & Display:**
+    *   Integrate Mapping Library (Leaflet/OSM).
+    *   Implement Geolocation fetching.
+    *   Fetch and display nearby vendors on map/list using `supabase.rpc` or `select`.
+    *   Implement Vendor Details page fetching data using `supabase.from('vendors').select()`.
+    *   Implement basic Search functionality.
+5.  **User Interactions:**
+    *   Implement Favourite feature (insert/delete on `Favourite` table via Supabase client).
+    *   Implement Submit New Vendor feature (insert to `SubmittedVendor`, upload to Storage).
+    *   Implement Report Low Stock feature (insert to `LowStockReport`, upload to Storage).
+6.  **Vendor Management:**
+    *   Implement logic/flow to associate logged-in Supabase user with a `Vendor` record.
+    *   Build Vendor Dashboard UI.
+    *   Implement profile editing using `supabase.from('vendors').update()` + Storage uploads, protected by RLS.
+7.  **Admin & Refinements:**
+    *   Build minimal Admin UI/scripts for verification and tag management.
+    *   Implement PWA features.
+    *   Refine UI/UX, RLS policies.
+    *   Setup CI/CD for frontend deployment (e.g., Vercel/Netlify) and potentially Supabase migrations/functions.
+
+# Risks and Mitigations (Supabase Context)
+
+*   **Technical Challenges:**
+    *   *Risk:* Geolocation inaccuracy or user refusal impacts discovery.
+    *   *Mitigation:* Browser API primary. Consider IP fallback via Edge Function if critical. Clearly communicate accuracy. Allow manual location setting.
+    *   *Risk:* Complex RLS policies become hard to manage or contain security holes.
+    *   *Mitigation:* Start with simple, restrictive policies. Test thoroughly using Supabase SQL editor's "Test Policy" feature. Incrementally add permissions. Document policies clearly.
+    *   *Risk:* Geospatial query performance degrades under load.
+    *   *Mitigation:* Ensure GIST index on `location` is used. Optimize `find_nearby_vendors` function. Monitor Supabase database performance metrics. Consider Supabase scaling options if needed.
+    *   *Risk:* Supabase Edge Function limitations (execution time, memory) or costs become prohibitive for certain background tasks.
+    *   *Mitigation:* Prefer database functions/triggers where possible. Design Edge Functions to be short-lived. Monitor usage and costs. Explore alternatives (e.g., external queue/worker) only if necessary.
+*   **MVP Scope Definition:**
+    *   *Risk:* Scope creep delays MVP.
+    *   *Mitigation:* Strict adherence to MVP features. Leverage Supabase's built-in features (Auth, Storage) to accelerate development. Focus RLS on MVP requirements first.
+*   **Vendor Lock-in & Costs:**
+    *   *Risk:* Heavy reliance on Supabase makes future migration difficult or expensive. Supabase pricing changes or free tier limits are exceeded unexpectedly.
+    *   *Mitigation:* Use standard SQL and PostgreSQL features where possible. Abstract Supabase client interactions in frontend code. Monitor usage against Supabase pricing tiers. Understand export options.
+*   **Adoption & Data Quality:**
+    *   (Largely same as original PRD, but mitigations leverage Supabase features).
+    *   *Mitigation (Vendor Onboarding):* Simple Supabase Auth flow. Clear value prop. Community engagement. Crowdsource via `SubmittedVendor`.
+    *   *Mitigation (User Adoption):* Easy discovery via Supabase queries. Local marketing. Iterate based on feedback.
+    *   *Mitigation (Data Accuracy):* Clear "Unverified" status. Admin verification step (simple Supabase UI/script). User flagging potentially later.
+*   **Security:**
+    *   *Risk:* Improperly configured RLS policies lead to data leaks or unauthorized modifications. Exposed API keys.
+    *   *Mitigation:* Implement RLS *from the start*. Default deny access. Test policies rigorously. Store Supabase URL/anon key in frontend env vars, service_role key securely (never in frontend). Use Supabase client library correctly.
+
+# Appendix
+
+*   **Research Findings:**
+    *   Acknowledgement of the established "Hedge Veg" and informal vendor culture in Jersey.
+    *   Note: Further investigation required regarding the Terms of Service for potentially scraping `hedgeveg.je` for initial seed data (Manual entry or user submission is the fallback).
+*   **Technical Specifications:**
+    *   **API Documentation:** Primarily Supabase client library (`supabase-js`). Auto-generated API docs available in Supabase dashboard. OpenAPI spec for any custom Edge Functions.
+    *   **Database Schema:** Defined via Supabase Studio SQL Editor or CLI migrations (`supabase/migrations`). Key tables: `vendors`, `vendor_types`, `users` (via `auth.users`), `favourites`, `low_stock_reports`, `submitted_vendors`.
+    *   **Key Libraries:** React, Leaflet.js, `@supabase/supabase-js`, Vite.
+    *   **Platform Target:** Modern mobile web browsers (iOS Safari, Android Chrome primarily), Desktop browsers (secondary).
+    *   **Infrastructure:** Supabase Platform, Static Frontend Host (Vercel/Netlify/etc.), GitHub Actions (for frontend CI/CD, maybe Supabase CLI).

@@ -1,0 +1,502 @@
+BEGIN;
+  description = 'Local vendor in St Brelade offering vegetables, baked goods, fruit, and eggs.',
+  parish = 'Trinity',
+  latitude = 49.2185,
+  longitude = -2.0637,
+  organic = FALSE,
+  cashless_payment = NULL,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('fa6bad83-4736-48e2-b4b5-b13254e81b33', 'Woodside Farmshop', 'Local vendor in Trinity offering wood. Accepts cashless payments.', 'St. Lawrence', 49.1989, -2.1358, FALSE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Woodside Farmshop',
+  description = 'Local vendor in Trinity offering wood. Accepts cashless payments.',
+  parish = 'St. Lawrence',
+  latitude = 49.1989,
+  longitude = -2.1358,
+  organic = FALSE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('1d743a1d-4f1d-4b24-a2fe-a3e0ca26a052', 'Rondels Farmshop', 'Local vendor in Trinity offering local produce. Accepts cashless payments.', 'St. John', 49.2372, -2.1111, FALSE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Rondels Farmshop',
+  description = 'Local vendor in Trinity offering local produce. Accepts cashless payments.',
+  parish = 'St. John',
+  latitude = 49.2372,
+  longitude = -2.1111,
+  organic = FALSE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('fd743b02-0521-474f-8438-97c67aec13c5', 'The Organic Shop', 'Local vendor in St Saviour offering vegetables, baked goods, fruit, and eggs. Organically grown. Accepts cashless payments.', 'St. Helier', 49.1831, -2.1047, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'The Organic Shop',
+  description = 'Local vendor in St Saviour offering vegetables, baked goods, fruit, and eggs. Organically grown. Accepts cashless payments.',
+  parish = 'St. Helier',
+  latitude = 49.1831,
+  longitude = -2.1047,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('8d84f995-3311-4530-8fcf-df426c97236c', 'Manor Farm', 'Local vendor in St Ouen offering vegetables.', 'St. Mary', 49.238, -2.1328, FALSE, NULL, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Manor Farm',
+  description = 'Local vendor in St Ouen offering vegetables.',
+  parish = 'St. Mary',
+  latitude = 49.238,
+  longitude = -2.1328,
+  organic = FALSE,
+  cashless_payment = NULL,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('09310fef-e485-420b-9825-67de507d8f46', 'Rue des Geonnais', 'Roadside stall located on Rue des Geonnais in St Ouen, offering eggs.', 'St. Ouen', 49.253618679077825, -2.1945045088155855, FALSE, NULL, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Rue des Geonnais',
+  description = 'Roadside stall located on Rue des Geonnais in St Ouen, offering eggs.',
+  parish = 'St. Ouen',
+  latitude = 49.253618679077825,
+  longitude = -2.1945045088155855,
+  organic = FALSE,
+  cashless_payment = NULL,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('4acf568a-e951-4c19-a804-5e8e3f2aec6c', 'Route du Port', 'Roadside stall located on Route du Port in St Peter, offering fruit, vegetables, and jersey royals.', 'St. Peter', 49.19864520763638, -2.1694911065918694, FALSE, NULL, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Route du Port',
+  description = 'Roadside stall located on Route du Port in St Peter, offering fruit, vegetables, and jersey royals.',
+  parish = 'St. Peter',
+  latitude = 49.19864520763638,
+  longitude = -2.1694911065918694,
+  organic = FALSE,
+  cashless_payment = NULL,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('35f52d9f-0df0-4541-b60a-01561607030c', 'Le Braye', 'Roadside stall located on Le Braye in St Brelade, offering vegetables and jersey royals.', 'St. Brelade', 49.18093191272904, -2.195962099654953, FALSE, NULL, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Le Braye',
+  description = 'Roadside stall located on Le Braye in St Brelade, offering vegetables and jersey royals.',
+  parish = 'St. Brelade',
+  latitude = 49.18093191272904,
+  longitude = -2.195962099654953,
+  organic = FALSE,
+  cashless_payment = NULL,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('1ac44f0e-652e-4131-b961-1382ad22d0d0', 'Rock View', 'Local vendor in St Ouen offering vegetables and jersey royals.', 'St. John', 49.2493, -2.1086, FALSE, NULL, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Rock View',
+  description = 'Local vendor in St Ouen offering vegetables and jersey royals.',
+  parish = 'St. John',
+  latitude = 49.2493,
+  longitude = -2.1086,
+  organic = FALSE,
+  cashless_payment = NULL,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('c463aa83-ae58-4bb4-b407-fa78ae7c0d15', 'Ruette des Mannaies', 'Roadside stall located on Ruette des Mannaies in St Ouen, offering vegetables and jersey royals. Cash only.', 'St. Ouen', 49.224901190818755, -2.1787939607806885, FALSE, FALSE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Ruette des Mannaies',
+  description = 'Roadside stall located on Ruette des Mannaies in St Ouen, offering vegetables and jersey royals. Cash only.',
+  parish = 'St. Ouen',
+  latitude = 49.224901190818755,
+  longitude = -2.1787939607806885,
+  organic = FALSE,
+  cashless_payment = FALSE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('9888e122-6c5f-4cbf-9a30-4795a3a3c68b', 'La Route de Saint-Jean', 'Roadside stall located on La Route de Saint-Jean in St John, offering plants.', 'St. John', 49.24321433851953, -2.1018419532358537, FALSE, NULL, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'La Route de Saint-Jean',
+  description = 'Roadside stall located on La Route de Saint-Jean in St John, offering plants.',
+  parish = 'St. John',
+  latitude = 49.24321433851953,
+  longitude = -2.1018419532358537,
+  organic = FALSE,
+  cashless_payment = NULL,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('a299ed9a-1219-46fd-a9c8-ed400449c1ff', 'La Rue des Landes', 'Roadside stall located on La Rue des Landes in St John, offering vegetables, wood, and flowers. Organically grown. Accepts cashless payments.', 'St. John', 49.2025, -2.1762, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'La Rue des Landes',
+  description = 'Roadside stall located on La Rue des Landes in St John, offering vegetables, wood, and flowers. Organically grown. Accepts cashless payments.',
+  parish = 'St. John',
+  latitude = 49.2025,
+  longitude = -2.1762,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('337704c7-a0a7-4e5e-b57e-e9c47bbae8dd', 'Jersey Royals', 'Local vendor in St Ouen offering vegetables and jersey royals. Cash only.', 'St. Ouen', 49.2193, -2.2259, FALSE, FALSE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Jersey Royals',
+  description = 'Local vendor in St Ouen offering vegetables and jersey royals. Cash only.',
+  parish = 'St. Ouen',
+  latitude = 49.2193,
+  longitude = -2.2259,
+  organic = FALSE,
+  cashless_payment = FALSE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('82c9a36d-4b4d-4689-b146-8fa07a15028b', 'Homefield Farmshop', 'Local vendor in St Clement offering honey. Organically grown. Accepts cashless payments.', 'St. Peter', 49.2019, -2.1739, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Homefield Farmshop',
+  description = 'Local vendor in St Clement offering honey. Organically grown. Accepts cashless payments.',
+  parish = 'St. Peter',
+  latitude = 49.2019,
+  longitude = -2.1739,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('74965c17-333f-48bf-8366-0ce29c3019ee', 'Rue de Fliquet', 'Roadside stall located on Rue de Fliquet in St Martin, offering vegetables, jersey royals, and plants. Organically grown. Accepts cashless payments.', 'St. Martin', 49.197437978190166, -2.0197722976782413, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Rue de Fliquet',
+  description = 'Roadside stall located on Rue de Fliquet in St Martin, offering vegetables, jersey royals, and plants. Organically grown. Accepts cashless payments.',
+  parish = 'St. Martin',
+  latitude = 49.197437978190166,
+  longitude = -2.0197722976782413,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('37489dc8-3407-4025-824e-33eaacf265cc', 'Farmer Richard', 'Local vendor in St Helier offering vegetables. Organically grown. Accepts cashless payments.', 'St. Peter', 49.208, -2.1954, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Farmer Richard',
+  description = 'Local vendor in St Helier offering vegetables. Organically grown. Accepts cashless payments.',
+  parish = 'St. Peter',
+  latitude = 49.208,
+  longitude = -2.1954,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('c23c6694-d7a3-402f-ab9f-fa8639743f76', 'Me and the Farmer by John Hackett', 'Local vendor in St Brelade offering baked goods, jersey royals, and meat. Organically grown. Accepts cashless payments.', 'St. Brelade', 49.1869, -2.1772, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Me and the Farmer by John Hackett',
+  description = 'Local vendor in St Brelade offering baked goods, jersey royals, and meat. Organically grown. Accepts cashless payments.',
+  parish = 'St. Brelade',
+  latitude = 49.1869,
+  longitude = -2.1772,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('91f0796e-f5d9-44da-b226-25f43e939983', 'Ferndale Farm', 'Roadside stall located on Ferndale Farm in St Peter, offering vegetables and jersey royals. Organically grown. Accepts cashless payments.', 'St. John', 49.2416, -2.1034, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Ferndale Farm',
+  description = 'Roadside stall located on Ferndale Farm in St Peter, offering vegetables and jersey royals. Organically grown. Accepts cashless payments.',
+  parish = 'St. John',
+  latitude = 49.2416,
+  longitude = -2.1034,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('4e65ec8b-c80d-42ce-8c07-fdbb4bd56267', 'Labey Farm', 'Roadside stall located on Labey Farm in St Ouen, offering vegetables and jersey royals. Organically grown. Accepts cashless payments.', 'Grouville', 49.1813, -2.0477, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Labey Farm',
+  description = 'Roadside stall located on Labey Farm in St Ouen, offering vegetables and jersey royals. Organically grown. Accepts cashless payments.',
+  parish = 'Grouville',
+  latitude = 49.1813,
+  longitude = -2.0477,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('e700c46f-3483-4b4b-a8a0-c98e576e88a2', 'Route des Millais', 'Roadside stall located on Route des Millais in St Ouen, offering vegetables and jersey royals. Organically grown. Accepts cashless payments.', 'St. Ouen', 49.22538648496874, -2.1759108077916043, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Route des Millais',
+  description = 'Roadside stall located on Route des Millais in St Ouen, offering vegetables and jersey royals. Organically grown. Accepts cashless payments.',
+  parish = 'St. Ouen',
+  latitude = 49.22538648496874,
+  longitude = -2.1759108077916043,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('cf57a3e1-74b3-408a-9a35-1354aa2201c7', 'Vallee des vaux', 'Roadside stall located on Vallee des vaux in St Helier, offering vegetables and plants. Organically grown. Accepts cashless payments.', 'St. Helier', 49.18454628193969, -2.104588849802009, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Vallee des vaux',
+  description = 'Roadside stall located on Vallee des vaux in St Helier, offering vegetables and plants. Organically grown. Accepts cashless payments.',
+  parish = 'St. Helier',
+  latitude = 49.18454628193969,
+  longitude = -2.104588849802009,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('d4a1e961-af12-4fa9-87ac-229d8d72e30f', 'The Jersey Potato Shack', 'Local vendor in St Helier offering fruit, vegetables, and jersey royals. Organically grown. Accepts cashless payments.', 'St. Brelade', 49.1822, -2.1943, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'The Jersey Potato Shack',
+  description = 'Local vendor in St Helier offering fruit, vegetables, and jersey royals. Organically grown. Accepts cashless payments.',
+  parish = 'St. Brelade',
+  latitude = 49.1822,
+  longitude = -2.1943,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('8d9ac9fe-632d-4dc6-ab6d-6840201c0780', 'Petit Menage Farm', 'Local vendor in St Saviour offering vegetables, eggs, and wood. Organically grown. Accepts cashless payments.', 'St. Ouen', 49.2265, -2.1772, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Petit Menage Farm',
+  description = 'Local vendor in St Saviour offering vegetables, eggs, and wood. Organically grown. Accepts cashless payments.',
+  parish = 'St. Ouen',
+  latitude = 49.2265,
+  longitude = -2.1772,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('bda532f4-6094-4488-b43c-c47999f0bd1b', 'Cluckingham Palace', 'Roadside stall located on Cluckingham Palace in St Saviour, offering eggs. Organically grown. Accepts cashless payments.', 'St. John', 49.2416, -2.1034, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Cluckingham Palace',
+  description = 'Roadside stall located on Cluckingham Palace in St Saviour, offering eggs. Organically grown. Accepts cashless payments.',
+  parish = 'St. John',
+  latitude = 49.2416,
+  longitude = -2.1034,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('6644b116-8e74-44d9-9a92-995a5044e167', 'Meleches Farm', 'Roadside stall located on Meleches Farm in St Helier, offering vegetables and jersey royals. Organically grown. Accepts cashless payments.', 'St. John', 49.2416, -2.1034, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Meleches Farm',
+  description = 'Roadside stall located on Meleches Farm in St Helier, offering vegetables and jersey royals. Organically grown. Accepts cashless payments.',
+  parish = 'St. John',
+  latitude = 49.2416,
+  longitude = -2.1034,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('52e3a650-a3e4-40f5-a7b3-a870834621ac', 'Jersey Wonders by Babs', 'Local vendor in Grouville offering baked goods. Organically grown. Accepts cashless payments.', 'St. Helier', 49.1835, -2.106, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Jersey Wonders by Babs',
+  description = 'Local vendor in Grouville offering baked goods. Organically grown. Accepts cashless payments.',
+  parish = 'St. Helier',
+  latitude = 49.1835,
+  longitude = -2.106,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('2e2cd4bb-25e7-46a4-a7a6-a0ea634191a6', 'Rue des Cateaux', 'Roadside stall located on Rue des Cateaux in Trinity, offering vegetables, eggs, and fruit. Organically grown. Accepts cashless payments.', 'Trinity', 49.228813544152175, -2.0588352957444394, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Rue des Cateaux',
+  description = 'Roadside stall located on Rue des Cateaux in Trinity, offering vegetables, eggs, and fruit. Organically grown. Accepts cashless payments.',
+  parish = 'Trinity',
+  latitude = 49.228813544152175,
+  longitude = -2.0588352957444394,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('9ac198f6-6f00-486c-8500-8b0f77e871d7', 'La route des hetres', 'Roadside stall located on La route des hetres in St Peter, offering fruit, vegetables, and jersey royals. Organically grown. Accepts cashless payments.', 'St. Peter', 49.197808179552844, -2.168786358786755, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'La route des hetres',
+  description = 'Roadside stall located on La route des hetres in St Peter, offering fruit, vegetables, and jersey royals. Organically grown. Accepts cashless payments.',
+  parish = 'St. Peter',
+  latitude = 49.197808179552844,
+  longitude = -2.168786358786755,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('8eab8f4c-5121-41a5-8e74-2501a937df83', 'Master Farms Grouville', 'Roadside stall located on Master Farms Grouville in Grouville, offering vegetables, jersey royals, and flowers. Organically grown. Accepts cashless payments.', 'Grouville', 49.1813, -2.0477, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Master Farms Grouville',
+  description = 'Roadside stall located on Master Farms Grouville in Grouville, offering vegetables, jersey royals, and flowers. Organically grown. Accepts cashless payments.',
+  parish = 'Grouville',
+  latitude = 49.1813,
+  longitude = -2.0477,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('7fccef7a-80e1-4e21-b9f1-f3237daea23b', 'Master Farms Trinity', 'Local vendor in Trinity offering vegetables, jersey royals, and flowers. Organically grown. Accepts cashless payments.', 'Trinity', 49.2297, -2.0592, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Master Farms Trinity',
+  description = 'Local vendor in Trinity offering vegetables, jersey royals, and flowers. Organically grown. Accepts cashless payments.',
+  parish = 'Trinity',
+  latitude = 49.2297,
+  longitude = -2.0592,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('4c5ce3b6-1f51-4c50-96f7-765bdb62608c', 'La Tacheron ''Bake Box''', 'Roadside stall located on La Tacheron ''Bake Box'' in Trinity, offering baked goods. Organically grown. Accepts cashless payments.', 'Trinity', 49.2185, -2.0637, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'La Tacheron ''Bake Box''',
+  description = 'Roadside stall located on La Tacheron ''Bake Box'' in Trinity, offering baked goods. Organically grown. Accepts cashless payments.',
+  parish = 'Trinity',
+  latitude = 49.2185,
+  longitude = -2.0637,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('10b7188c-18e6-4d43-8656-68c249c2f80f', 'Bessie''s biscuits & cupcakes', 'Local vendor in St Martin offering baked goods. Organically grown. Accepts cashless payments.', 'St. Helier', 49.1843, -2.1003, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Bessie''s biscuits & cupcakes',
+  description = 'Local vendor in St Martin offering baked goods. Organically grown. Accepts cashless payments.',
+  parish = 'St. Helier',
+  latitude = 49.1843,
+  longitude = -2.1003,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('a9c9b766-72be-489e-af64-5c471c1500da', 'Chemin des Monts Plants', 'Roadside stall located on Chemin des Monts Plants in St Ouen, offering plants. Organically grown. Accepts cashless payments.', 'St. Ouen', 49.21865908049534, -2.224447030121218, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Chemin des Monts Plants',
+  description = 'Roadside stall located on Chemin des Monts Plants in St Ouen, offering plants. Organically grown. Accepts cashless payments.',
+  parish = 'St. Ouen',
+  latitude = 49.21865908049534,
+  longitude = -2.224447030121218,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('beb76b77-e402-45db-bb41-4256cf348220', 'The Cake Box', 'Local vendor in St Martin offering baked goods. Organically grown. Accepts cashless payments.', 'St. Lawrence', 49.1891, -2.1495, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'The Cake Box',
+  description = 'Local vendor in St Martin offering baked goods. Organically grown. Accepts cashless payments.',
+  parish = 'St. Lawrence',
+  latitude = 49.1891,
+  longitude = -2.1495,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('066cc27a-8eef-4536-965d-496948f3f69a', 'Daisy's Country Bakes', 'Local vendor in St Lawrence offering plants, baked goods, and flowers. Organically grown. Accepts cashless payments.', 'St. Lawrence', 49.19068729416652, -2.1484889268517113, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Daisy's Country Bakes',
+  description = 'Local vendor in St Lawrence offering plants, baked goods, and flowers. Organically grown. Accepts cashless payments.',
+  parish = 'St. Lawrence',
+  latitude = 49.19068729416652,
+  longitude = -2.1484889268517113,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('7b00964b-3ec4-4422-afff-6537990a3446', 'The Wonder Stall', 'Local vendor in St Martin offering baked goods. Organically grown. Accepts cashless payments.', 'St. Martin', 49.1946, -2.0733, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'The Wonder Stall',
+  description = 'Local vendor in St Martin offering baked goods. Organically grown. Accepts cashless payments.',
+  parish = 'St. Martin',
+  latitude = 49.1946,
+  longitude = -2.0733,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('b04a6161-7792-4c00-83da-fc6e6d31a619', 'Westies Dairy Free Cakes', 'Local vendor in St Peter offering vegetables, baked goods, and milk. Organically grown. Accepts cashless payments.', 'St. Peter', 49.2019, -2.1739, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Westies Dairy Free Cakes',
+  description = 'Local vendor in St Peter offering vegetables, baked goods, and milk. Organically grown. Accepts cashless payments.',
+  parish = 'St. Peter',
+  latitude = 49.2019,
+  longitude = -2.1739,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('30bace09-42f4-4238-8502-f7523721ac78', 'The Ranch Honesty Box', 'Local vendor in St Peter offering vegetables and fruit. Organically grown. Accepts cashless payments.', 'St. Peter', 49.208, -2.1954, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'The Ranch Honesty Box',
+  description = 'Local vendor in St Peter offering vegetables and fruit. Organically grown. Accepts cashless payments.',
+  parish = 'St. Peter',
+  latitude = 49.208,
+  longitude = -2.1954,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('cf49a3f2-469e-4d7f-8669-f06ef9d8b249', 'The Easter Eggers of Oakvale', 'Roadside stall located on The Easter Eggers of Oakvale in St Saviour, offering eggs. Organically grown. Accepts cashless payments.', 'Trinity', 49.23, -2.0592, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'The Easter Eggers of Oakvale',
+  description = 'Roadside stall located on The Easter Eggers of Oakvale in St Saviour, offering eggs. Organically grown. Accepts cashless payments.',
+  parish = 'Trinity',
+  latitude = 49.23,
+  longitude = -2.0592,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('d3721792-29ee-4911-aebb-6c8f239621f1', 'Little Bird Bakes', 'Roadside stall located on Little Bird Bakes in St Martin, offering baked goods. Organically grown. Accepts cashless payments.', 'St. Lawrence', 49.1909, -2.143, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Little Bird Bakes',
+  description = 'Roadside stall located on Little Bird Bakes in St Martin, offering baked goods. Organically grown. Accepts cashless payments.',
+  parish = 'St. Lawrence',
+  latitude = 49.1909,
+  longitude = -2.143,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('c4803099-853c-4e12-a49a-79db24b423d2', 'Crabs Direct', 'Local vendor in St Clement offering meat, shellfish, and fish. Organically grown. Accepts cashless payments.', 'St. Clement', 49.1786, -2.0531, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Crabs Direct',
+  description = 'Local vendor in St Clement offering meat, shellfish, and fish. Organically grown. Accepts cashless payments.',
+  parish = 'St. Clement',
+  latitude = 49.1786,
+  longitude = -2.0531,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+INSERT INTO public.vendors (id, name, description, parish, latitude, longitude, organic, cashless_payment, status)
+VALUES ('a1169378-ffca-4a9e-8311-a6a569cc1f6e', 'Jade-S Fisheries - St. Aubins', 'Local vendor in St Brelade offering shellfish and fish. Organically grown. Accepts cashless payments.', 'St. Brelade', 49.1871, -2.1666, TRUE, TRUE, 'unverified')
+ON CONFLICT (id) DO UPDATE SET
+  name = 'Jade-S Fisheries - St. Aubins',
+  description = 'Local vendor in St Brelade offering shellfish and fish. Organically grown. Accepts cashless payments.',
+  parish = 'St. Brelade',
+  latitude = 49.1871,
+  longitude = -2.1666,
+  organic = TRUE,
+  cashless_payment = TRUE,
+  updated_at = NOW();
+
+COMMIT;

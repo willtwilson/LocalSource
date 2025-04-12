@@ -1,0 +1,40 @@
+# HedgeVeg Web App PRD
+
+## Project Overview
+Create a web application that displays Jersey's hedge veg stands on an interactive map, allowing users to browse, filter, and find information about local vendors and their produce.
+
+## Core Features (Priority 1)
+1. Interactive Map View: Display all vendors as markers on a map of Jersey, with parish boundaries
+2. Vendor Details: Show name, location, produce types, and other relevant information in a popup
+3. List View: Alternative way to browse vendors in a list format with basic information
+4. Filtering: Allow users to filter vendors by parish and produce type
+5. Responsive Design: Work well on both desktop and mobile devices
+
+## Additional Features (Priority 2)
+1. User Contributions: Allow users to submit new vendors or updates to existing vendors
+2. Search Functionality: Search for vendors by name, location, or produce type
+3. Favorites: Allow users to save favorite vendors for quick access
+4. Directions: Provide directions to vendors from the user's current location
+5. Seasonal Information: Display information about what produce is in season
+
+## Technical Requirements
+1. Frontend: React with Next.js for server-side rendering
+2. Backend: Supabase for database, authentication, and API
+3. Maps: Leaflet or Google Maps API for the interactive map
+4. Hosting: Deploy to Vercel, Netlify, or similar platform
+5. Data: Use the scraped and enhanced vendor data from our pipeline
+
+## MVP Definition
+For the initial launch, we need:
+1. Working map with vendor markers
+2. Basic vendor details display
+3. Simple filtering by parish and produce type
+4. Responsive design that works on mobile
+5. Deployed and publicly accessible
+
+## Future Enhancements
+1. User accounts and authentication
+2. Vendor reviews and ratings
+3. Push notifications for seasonal updates
+4. Offline functionality with PWA features
+5. Analytics to track user engagement 

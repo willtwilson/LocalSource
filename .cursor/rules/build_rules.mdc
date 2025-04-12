@@ -1,0 +1,17 @@
+---
+description: building the web app and running tasks
+globs: 
+alwaysApply: false
+---
+Review what the current / next task is and then build that out. 
+Think carefully in order to get things right the first time.
+Remember that this should be a Docker hosted web-app so try not to install or run things directly on the host, use Docker as much as possible; also installed on the host are Tailscale for networking and Playwright for browser testing.
+
+If you get to the end of a task or subtask, run any prescribed 'tests' and document the result in 'test_status.md'. Do not move on to the next step unless the current task has 'passed' without any fails the current test or 'postponed' the test. Where possible, run any postponed tests.
+
+Then move on to the next task and update the status accordingly.
+Repeat this process until no more tasks left.
+
+If you get stuck, proceed with your best approach. 
+Make all changes yourself directly. Do not require my input.
+Use verbose commands/queries in order to make debugging better.
