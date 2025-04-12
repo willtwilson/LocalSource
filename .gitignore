@@ -1,0 +1,99 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS specific
+.DS_Store
+
+# Task files
+tasks.json
+tasks/
+
+# Screenshots
+screenshots/
+scrapers/screenshots/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+dist/
+build/
+
+# Environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Docker
+.docker/
+
+# Virtual environments
+venv/
+scraper-env/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Miscellaneous
+.cursor-server/
+.nvm/
+.windsurfrules
+.sudo_as_admin_successful
+*/samples/*
+
+# Large binary files
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+# Exclude all dot folders and files except specific ones we want to keep
+.*
+!.gitignore
+!.github/ 
